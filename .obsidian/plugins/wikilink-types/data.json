@@ -1,0 +1,24 @@
+{
+  "relationshipTypes": [
+    {
+      "key": "complements",
+      "label": "дополняет",
+      "description": "Вместе усиливают защиту"
+    },
+    {
+      "key": "requires",
+      "label": "требует",
+      "description": "Без цели способ слаб или неполон"
+    },
+    {
+      "key": "not-replaces",
+      "label": "не заменяет",
+      "description": "Разные зоны ответственности"
+    },
+    {
+      "key": "same-layer",
+      "label": "тот же слой",
+      "description": "Альтернативы или родственники"
+    }
+  ]
+}
