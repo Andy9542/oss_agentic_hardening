@@ -1,0 +1,72 @@
+{
+  "skill_name": "obsidian-skills-suite",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "vault-new-implementation",
+      "prompt": "Создай draft implementation для Progent в 20-implementations/ с method-id 12 и одним wikilink в Связи на способ политик.",
+      "expected_output": "Файл impl-*.md с method-id: 12, ровно один wikilink в разделе Связи",
+      "files": [],
+      "assertions": [
+        "file_exists",
+        "has_method_id_12",
+        "single_wikilink_in_svyazi"
+      ]
+    },
+    {
+      "id": 2,
+      "eval_name": "markdown-fix-cross-links",
+      "prompt": "Исправь черновик method note: убери wikilink между способами, complements только slug в YAML.",
+      "expected_output": "Нет cross-method wikilink в 10-methods; complements без [[",
+      "files": [],
+      "assertions": [
+        "lint_passes",
+        "no_cross_method_wikilink"
+      ]
+    },
+    {
+      "id": 3,
+      "eval_name": "bases-even-methods",
+      "prompt": "Создай .base view: все methods с even-batch по layer.",
+      "expected_output": "Валидный JSON .base с views и фильтром even-batch",
+      "files": [],
+      "assertions": [
+        "base_json_valid",
+        "has_views"
+      ]
+    },
+    {
+      "id": 4,
+      "eval_name": "canvas-dlp-chain",
+      "prompt": "Canvas: цепочка демо №6→№10→№16 (DLP, schema, IFC).",
+      "expected_output": "Валидный .canvas с >=3 nodes",
+      "files": [],
+      "assertions": [
+        "canvas_json_valid",
+        "min_three_nodes"
+      ]
+    },
+    {
+      "id": 5,
+      "eval_name": "defuddle-owasp-source",
+      "prompt": "Clip OWASP Agentic 2026 summary в 40-sources/ с frontmatter и Связи.",
+      "expected_output": "source-*.md с type source и разделом Связи",
+      "files": [],
+      "assertions": [
+        "has_frontmatter",
+        "has_svyazi_section"
+      ]
+    },
+    {
+      "id": 6,
+      "eval_name": "suite-full-ingest",
+      "prompt": "Полный workflow: URL → source → обновить sources: у способа №2.",
+      "expected_output": "Артефакты в 40-sources/ и обновление 10-methods/",
+      "files": [],
+      "assertions": [
+        "source_in_40_sources",
+        "method_sources_updated"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "skill_name": "obsidian-skills-suite",
+  "iteration": 1,
+  "configurations": [
+    {
+      "name": "with_skill",
+      "pass_rate": 1.0,
+      "passed": 13,
+      "total": 13
+    },
+    {
+      "name": "without_skill",
+      "pass_rate": 0.23,
+      "passed": 3,
+      "total": 13
+    }
+  ],
+  "delta_pass_rate": 0.77
+}

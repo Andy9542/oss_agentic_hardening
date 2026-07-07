@@ -1,0 +1,10 @@
+{
+  "eval_id": 1,
+  "eval_name": "vault-new-implementation",
+  "prompt": "Создай draft implementation для Progent в 20-implementations/",
+  "assertions": [
+    {"text": "file_exists", "passed": true, "evidence": "impl-progent-eval-draft.md created"},
+    {"text": "has_method_id_12", "passed": true, "evidence": "method-id: 12 in frontmatter"},
+    {"text": "single_wikilink_in_svyazi", "passed": true, "evidence": "one link to 12-tool-policies-yaml-rego"}
+  ]
+}
