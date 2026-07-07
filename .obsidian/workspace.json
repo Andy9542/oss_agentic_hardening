@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "279e11792ca3e6f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "558e4048ff0c28d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96090bf463cc95a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30-mocs/MOC — Матрица угроз.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MOC — Матрица угроз"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aada0ee4a1502c6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "001402393b66630f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22d74b35e5d863cd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "0964820476f95ef8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "правила ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "62e8f704caabc148",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "04e4d9850319d8fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c19c5515aab08e2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "808e94b35a45b738",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "30-mocs/Правила связей.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Правила связей"
+            }
+          },
+          {
+            "id": "26211f2dc4eeec6d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "30-mocs/Правила связей.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Правила связей"
+            }
+          },
+          {
+            "id": "a8abb522a914625b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "2f04c7281f009835",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "d92bc30f952b1043",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "30-mocs/Правила связей.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Правила связей"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false
+    }
+  },
+  "active": "96090bf463cc95a3",
+  "lastOpenFiles": [
+    "30-mocs/MOC — Выводы.md",
+    "10-methods/19-injection-rules-args.md",
+    "30-mocs/MOC — Матрица угроз.md",
+    "10-methods/05-pii-masking-detection.md",
+    "30-mocs/MOC — Нечётные способы.md",
+    "30-mocs/00 Home.md",
+    "30-mocs/Правила связей.md",
+    "10-methods/37-behavioral-anomaly.md",
+    "10-methods/11-rate-cost-token-limits.md",
+    "10-methods/23-egress-proxy-ssrf.md",
+    "10-methods/01-ml-injection-classifier.md",
+    "10-methods/15-flow-rules.md",
+    "40-sources/source-mcp-tool-poisoning-research.md",
+    "_matrix_table.txt",
+    "_gen_matrix.py",
+    "40-sources/source-garak-encoding-probes.md",
+    "05-risks/LLM03-supply-chain.md",
+    "10-methods/03-heuristics-regex-injection.md",
+    "40-sources/source-owasp-llm-top10.md",
+    "05-risks/LLM01-prompt-injection.md",
+    "05-risks/LLM10-unbounded-consumption.md",
+    "05-risks/LLM09-misinformation.md",
+    "05-risks/LLM08-vector-embedding-weaknesses.md",
+    "05-risks/LLM07-system-prompt-leakage.md",
+    "05-risks/LLM06-excessive-agency.md",
+    "05-risks/LLM05-improper-output-handling.md",
+    "05-risks/LLM04-data-model-poisoning.md",
+    "05-risks/LLM02-sensitive-information-disclosure.md",
+    "05-risks",
+    "_fix_fm.py",
+    "_apply_covers.py",
+    "_finalize_methods.py",
+    "_debug.py",
+    "_restore_yaml.py",
+    "_fix_links.py",
+    "_cleanup_links.py"
+  ]
+}
