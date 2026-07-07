@@ -11,14 +11,12 @@ status: reviewed
 tags:
   - agent-security
   - even-batch
-sources: []
+sources:
+  - source-owasp-llm-2025
 covers:
   - LLM02
   - LLM05
   - ASI03
-complements:
-  - 04-unicode-normalization
-  - 16-ifc-capability-taint
 ---
 
 # Контентная DLP-инспекция

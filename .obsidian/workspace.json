@@ -181,6 +181,9 @@
   },
   "active": "96090bf463cc95a3",
   "lastOpenFiles": [
+    "research/composer/audit-links-even-batch.md",
+    "30-mocs/demo-dlp-chain.canvas",
+    "30-mocs/even-methods-by-layer.base",
     "30-mocs/MOC — Матрица угроз.md",
     "30-mocs/MOC — Выводы.md",
     "10-methods/19-injection-rules-args.md",
@@ -208,14 +211,12 @@
     "05-risks/LLM06-excessive-agency.md",
     "05-risks/LLM05-improper-output-handling.md",
     "05-risks/LLM04-data-model-poisoning.md",
-    "05-risks/LLM02-sensitive-information-disclosure.md",
     "05-risks",
     "_fix_fm.py",
     "_apply_covers.py",
     "_finalize_methods.py",
     "_debug.py",
     "_restore_yaml.py",
-    "_fix_links.py",
-    "_cleanup_links.py"
+    "_fix_links.py"
   ]
 }

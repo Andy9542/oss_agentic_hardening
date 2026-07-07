@@ -31,4 +31,4 @@ Code-interpreter агента получает задачу «проанализ
 ## Связи
 
 - [[MOC — Матрица угроз]]
-- [[source-owasp-asi-top10]]
+- [[source-owasp-agentic-2026]]

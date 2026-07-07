@@ -13,15 +13,12 @@ tags:
   - even-batch
 sources:
   - source-alignmentcheck-llamafirewall
+  - source-owasp-llm-2025
+  - source-owasp-agentic-2026
 covers:
   - ASI01
   - LLM01
   - ASI02
-complements:
-  - 16-ifc-capability-taint
-  - 40-opentelemetry-siem
-not-replaces:
-  - 42-colang-dialog-rails
 ---
 
 # LLM-аудит рассуждений (CoT-аудит)

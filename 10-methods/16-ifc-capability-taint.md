@@ -13,18 +13,14 @@ tags:
   - even-batch
 sources:
   - source-camel-ifc
+  - source-owasp-llm-2025
+  - source-owasp-agentic-2026
 covers:
   - LLM01
   - LLM02
   - LLM06
   - ASI01
   - ASI02
-complements:
-  - 28-toxic-flow-analysis
-requires:
-  - 14-default-deny-allowlists
-not-replaces:
-  - 02-cot-reasoning-audit
 ---
 
 # Capability / IFC / taint-метки

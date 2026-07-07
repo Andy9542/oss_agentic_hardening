@@ -35,4 +35,4 @@ tags:
 ## Связи
 
 - [[MOC — Матрица угроз]]
-- [[source-owasp-asi-top10]]
+- [[source-owasp-agentic-2026]]

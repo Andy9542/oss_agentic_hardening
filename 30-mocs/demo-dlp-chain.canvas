@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "n6",
+      "type": "file",
+      "file": "10-methods/06-content-dlp-inspection.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "n10",
+      "type": "file",
+      "file": "10-methods/10-json-schema-constrained.md",
+      "x": 420,
+      "y": 0,
+      "width": 360,
+      "height": 200,
+      "color": "5"
+    },
+    {
+      "id": "n16",
+      "type": "file",
+      "file": "10-methods/16-ifc-capability-taint.md",
+      "x": 840,
+      "y": 0,
+      "width": 360,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "lbl",
+      "type": "text",
+      "x": 0,
+      "y": -120,
+      "width": 500,
+      "height": 80,
+      "text": "# Demo chain\nDLP → Schema → IFC (§12)"
+    }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "n6", "toNode": "n10", "label": "egress string" },
+    { "id": "e2", "fromNode": "n10", "toNode": "n16", "label": "typed field → flow" }
+  ]
+}

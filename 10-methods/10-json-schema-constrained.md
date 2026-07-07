@@ -11,13 +11,10 @@ status: reviewed
 tags:
   - agent-security
   - even-batch
-sources: []
+sources:
+  - source-owasp-llm-2025
 covers:
   - LLM05
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
-  - 20-ghost-args-strict-typing
 ---
 
 # Валидация структуры ответа (JSON / Schema)

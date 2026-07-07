@@ -13,14 +13,11 @@ tags:
   - even-batch
 sources:
   - source-agentpoison-arxiv
+  - source-owasp-llm-2025
+  - source-owasp-agentic-2026
 covers:
   - ASI06
   - LLM04
-complements:
-  - 32-aibom-inventory
-  - 44-red-team-regression
-not-replaces:
-  - 16-ifc-capability-taint
 ---
 
 # Защита памяти агента

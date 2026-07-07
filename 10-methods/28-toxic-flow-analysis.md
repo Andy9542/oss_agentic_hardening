@@ -13,16 +13,11 @@ tags:
   - even-batch
 sources:
   - source-invariant-toxic-flow
+  - source-owasp-agentic-2026
 covers:
   - ASI01
   - ASI02
   - LLM02
-complements:
-  - 16-ifc-capability-taint
-  - 32-aibom-inventory
-requires: []
-not-replaces:
-  - 16-ifc-capability-taint
 ---
 
 # Toxic flow / dataflow analysis

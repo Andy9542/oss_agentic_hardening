@@ -13,17 +13,11 @@ tags:
   - even-batch
 sources:
   - source-progent-smt
+  - source-owasp-agentic-2026
 covers:
   - ASI02
   - ASI03
   - LLM06
-complements:
-  - 16-ifc-capability-taint
-  - 28-toxic-flow-analysis
-requires:
-  - 14-default-deny-allowlists
-not-replaces:
-  - 20-ghost-args-strict-typing
 ---
 
 # Политики на tools (YAML / Rego / Cedar)

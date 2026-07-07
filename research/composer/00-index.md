@@ -15,6 +15,7 @@
 | Батч 5 Диалог/Тесты | ✓ [09-batch5-cards-audit.md](09-batch5-cards-audit.md) |
 | №46* Memory | ✓ [10-batch46-memory-audit.md](10-batch46-memory-audit.md) |
 | Полная матрица | ✓ [11-full-matrix.md](11-full-matrix.md) |
+| Аудит связей vault | ✓ [audit-links-even-batch.md](audit-links-even-batch.md) |
 
 ## Preflight-аудит (рамка · описание · пример)
 

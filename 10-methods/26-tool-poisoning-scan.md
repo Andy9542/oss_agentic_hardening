@@ -13,15 +13,11 @@ tags:
   - even-batch
 sources:
   - source-invariant-toxic-flow
+  - source-owasp-agentic-2026
 covers:
   - ASI04
   - LLM03
   - LLM01
-complements:
-  - 28-toxic-flow-analysis
-  - 32-aibom-inventory
-requires:
-  - 32-aibom-inventory
 ---
 
 # Tool poisoning / shadowing scan
