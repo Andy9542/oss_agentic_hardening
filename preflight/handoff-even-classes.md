@@ -1,6 +1,6 @@
 # Handoff: итоговый реестр чётных классов защиты агентов
 
-Назначение: рабочее задание для агента-исполнителя. Контекст-пакет: `template-rules.md` (стандарт карточки v1.0 — обязателен к прочтению первым), `stage0-discrepancy-log.md` (лог валидации), готовые эталоны `card-16-ifc-taint.md` (полная) и `card-10-json-schema.md` (экспресс), исходники `all-methods-top-20.md` и `even-methods-checklist.md`.
+Назначение: рабочее задание для агента-исполнителя. Контекст-пакет: `template-rules.md` (стандарт карточки v1.1 — обязателен к прочтению первым), `stage0-preflight-results.md` (лог валидации), готовые эталоны `card-16-ifc-taint.md` (полная) и `card-10-json-schema.md` (экспресс), исходники `all-methods-top-20.md` и `even-methods-checklist.md`.
 
 Двойное назначение результата: справочник (источник истины) + доклад на конференции. Поле «Сцена» заполнять по стандарту; язык — русский.
 
@@ -10,7 +10,8 @@
 - Model-level защиты — вне скоупа (оговорка в предисловии справочника).
 - Раздел X исходного файла — форм-фактор, не методы; облачность = атрибут §7.
 - Дедуп источников: Invariant = Snyk = AgentDojo — одна линия (ETH Zurich → Invariant Labs → Snyk, июнь 2025).
-- Числа из исходного файла НЕ переносить без маркера верификации; опровергнутые (Aegis «7 дней», «9 dims»; Progent «SMT») не использовать.
+- Числа из исходного файла НЕ переносить без маркера верификации; опровергнутые (Aegis «7 дней», «9 dims») не использовать. [ПРАВКА Stage0 D1: Progent «SMT» ВОССТАНОВЛЕН — см. §12 и factcheck-todo #2.]
+- Ось §4 (модель угроз) пинится: OWASP Agentic Top 10 2026 (осн.) / LLM Top 10 2025 (втор.). Нумерация-2023 в исходниках — устарела; закрытый словарь и эрраты — в stage0.
 
 ## Реестр классов
 
@@ -26,7 +27,7 @@
 
 **Батч 2 — Действие**
 
-- **№12 Политики на tools (YAML/Rego/Cedar)** | к разбору | **полная** | превентивный | §4+§6 (enterprise-якорь: владение политиками). OPA/Cedar `[док]`; Progent DSL = JSON/JSON Schema, fallback, динамические обновления `[проверено 2026-07-06, arXiv:2504.11703]`; «SMT» — `[опровергнуто]`, не упоминать. CEL — двойная принадлежность с №24, зафиксировать по точке врезки.
+- **№12 Политики на tools (YAML/Rego/Cedar)** | к разбору | **полная** | превентивный | §4+§6 (enterprise-якорь: владение политиками). OPA/Cedar `[док]`; Progent DSL = JSON/JSON Schema, fallback, динамические обновления `[проверено 2026-07-06, arXiv:2504.11703]`; SMT — центральный механизм: каждое обновление политики судится SMT-солвером как narrowing (авто) / expansion (одобрение) → monotonic confinement (доказ. §6); 6% обновлений потребовали одобрения на AgentDojo. `[проверено 2026-07-07, arXiv:2504.11703 v3]`. Причина прежней ошибки — сверка с v1 (без SMT-обвязки). CEL — двойная принадлежность с №24, зафиксировать по точке врезки.
 - **№14 Default-deny + allowlists** | к разбору | экспресс | превентивный | §8 (подложка для №12/№16). Терминологическая развязка: «capability model» здесь = права агента; метки на данных — №16. agent-airlock deny-by-default `[проверено]` по описанию репо.
 - **№18 ReBAC (SpiceDB)** | к разбору | экспресс | превентивный | §4. SpiceDB/authzed `[док]`. Janus (`Agentic-AI-Risk-Mitigation/Janus`, ~12★) — только с owner, вес соразмерять.
 - **№16** | **ГОТОВА** (card-16-ifc-taint.md, эталон полной; включает №43) | — | — | отметить в чеклисте.
@@ -36,7 +37,7 @@
 **Батч 3 — Сеть / Supply chain / Код**
 
 - **№24 MCP/LLM gateway с RBAC** | к разбору | экспресс | превентивный | §3. agentgateway (CEL, JWT/OIDC, multi-tenant session routing) `[док]`. Строку «multi-tenant isolation» (VI) отнести сюда. JWT/OAuth, confused deputy — сюда же.
-- **№26 Tool poisoning / shadowing scan** | граница зафиксирована (A4=a) | **полная** | детективный | §4. Объект: метаданные инструментов (descriptions tools/list, имена, shadowing, unsafe command definitions). «PI в skills» → №27 (не наш). Дедуп: tool poisoning и rug-pull — термины Invariant `[проверено]`. Реализации: snyk agent-scan aka mcp-scan `[проверено]`, defenseclaw/Cisco `[проверено]` существование, agentseal `[проверено]` существование.
+- **№26 Tool poisoning / shadowing scan** | граница зафиксирована (A4=a) | **полная** | детективный | §4. Объект: метаданные инструментов (descriptions tools/list, имена, shadowing, unsafe command definitions). «PI в skills» → №27 (не наш). Дедуп: tool poisoning и rug-pull — термины Invariant `[проверено]`. Реализации: snyk agent-scan aka mcp-scan `[проверено]`, defenseclaw/Cisco `[проверено]` существование, agentseal `[проверено 2026-07-07]` — локальный сканер skills/MCP (tool-poisoning: rug-pull, shadowing, cross-tool injection; XFLOW; SARIF). Подписи артефактов НЕТ — атрибуция «signing & verify» снята.
 - **№28 Toxic flow / dataflow analysis** | к разбору | **полная** | детективный (статический) | §4+§8. Первоисточник: invariantlabs.ai/blog/toxic-flow-analysis `[проверено 2026-07-06]` — flow-граф, trust/sensitivity/sink-свойства, скоринг токсичных последовательностей, lethal trifecta. Триада №15 (декларативные flow rules) / №28 (статика) / №16 (рантайм) — раскрыть. Демо-кандидат: флоу-граф GitHub-MCP-кейса.
 - **№30 Static analysis кода** | к разбору | экспресс | детективный | §4. CodeShield (LlamaFirewall) `[док]`, Semgrep `[док]`. Cisco mcp/a2a-сканеры — контекст №26, не сюда (правка V2).
 - **№32 AIBOM / inventory** | к разбору | экспресс | поддерживающий | §8 (субстрат для №26/№28/аудита). Snyk AI-BOM `[проверено]` (упомянут в источниках V1). Auto-discovery конфигов — сюда.
@@ -51,7 +52,7 @@
 **Батч 5 — Диалог / Тесты**
 
 - **№42 Rails (Colang)** | сужен (V3.7) | **полная** | превентивный | §1 (декомпозиция — несущая). Ядро класса: dialog rails + canonical form matching (уникальны). Input/output/execution rails = переупаковка №1/№8/№12 — перекрёстными ссылками, не дублировать. NeMo Guardrails + ActiveFence `[док]`.
-- **№44 Red team probes + regression eval** | понижен V4 | экспресс | **тестовый, не prod-защита** | §8 (закрывает петлю для всех остальных). garak, promptfoo, PyRIT `[док]`. garak+YARA `[сомнительно]` — открытая проверка. AgentDojo — №45 (не наш), но дедуп-линия Invariant действует.
+- **№44 Red team probes + regression eval** | понижен V4 | экспресс | **тестовый, не prod-защита** | §8 (закрывает петлю для всех остальных). garak, promptfoo, PyRIT `[док]`. garak+YARA — снято: YARA-механизма в garak (probes/detectors/generators/…) не найдено `[не найдено 2026-07-07]`. garak описывать как генерацию адверсариал-промптов + детекторную оценку. AgentDojo — №45 (не наш), но дедуп-линия Invariant действует.
 
 **Новый класс (решение B6)**
 
@@ -59,14 +60,16 @@
 
 ## Порядок и Definition of Done
 
-Порядок: батчи 1→5, затем №46*. В батче 3 начинать с №28 (лучший первоисточник). Карточка считается готовой, когда: соответствует стандарту v1.0 (включая шапку с несущим полем и маркеры с датами), отмечена в `even-methods-checklist.md`, открытые проверки вынесены в factcheck-todo, поля §3/§4/§10/§11 заполнены по закрытым словарям (матрица собирается механически).
+Порядок: батчи 1→5, затем №46*. В батче 3 начинать с №28 (лучший первоисточник). Карточка считается готовой, когда: соответствует стандарту v1.1 (включая шапку с несущим полем и маркеры с датами), отмечена в `even-methods-checklist.md`, открытые проверки вынесены в factcheck-todo, поля §3/§4/§10/§11 заполнены по закрытым словарям (матрица собирается механически).
 
 ## Переходящие открытые проверки (factcheck-todo)
 
-1. agent-airlock: Firecracker/Docker/honeypot/OTel (блокирует часть №20).
-2. Progent §4.2: формулировка монотонности (для №12).
-3. garak: YARA-механизм (для №44).
-4. defenseclaw ↔ NVIDIA OpenShell: интеграция (для №34).
-5. agentseal: подпись артефактов или только скан (для №26).
-6. Pipelock: «48+ шаблонов», «6 проходов», BIP-39, confused deputy (для №6, №24).
-7. AGT Flight Recorder: подтвердить компонент (контекст №40).
+> **Снимок на 2026-07-07.** Актуальный статус ведётся в [`experiments/factcheck-todo.md`](../experiments/factcheck-todo.md).
+
+1. agent-airlock: Firecracker/Docker/honeypot/OTel (блокирует часть №20). `[OPEN]`
+2. Progent §4.2 монотонность (для №12). `[CLOSED]` — SMT narrowing/expansion.
+3. garak: YARA-механизм (для №44). `[CLOSED-NEG]`
+4. defenseclaw ↔ NVIDIA OpenShell: интеграция (для №34). `[OPEN]`
+5. agentseal: подпись артефактов или только скан (для №26). `[CLOSED]` — только скан.
+6. Pipelock: «48+ шаблонов», «6 проходов», BIP-39, confused deputy (для №6, №24). `[PARTIAL]`
+7. AGT Flight Recorder: подтвердить компонент (контекст №40). `[OPEN]`
