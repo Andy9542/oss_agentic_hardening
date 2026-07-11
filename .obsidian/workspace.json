@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "558e4048ff0c28d3",
+        "id": "a3713a7f64cc95f9",
         "type": "tabs",
         "children": [
           {
-            "id": "96090bf463cc95a3",
+            "id": "305df7714b993c0c",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -179,8 +179,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "96090bf463cc95a3",
+  "active": "305df7714b993c0c",
   "lastOpenFiles": [
+    "10-methods/32-aibom-inventory.md",
     "research/composer/audit-links-even-batch.md",
     "30-mocs/demo-dlp-chain.canvas",
     "30-mocs/even-methods-by-layer.base",
@@ -210,7 +211,6 @@
     "05-risks/LLM07-system-prompt-leakage.md",
     "05-risks/LLM06-excessive-agency.md",
     "05-risks/LLM05-improper-output-handling.md",
-    "05-risks/LLM04-data-model-poisoning.md",
     "05-risks",
     "_fix_fm.py",
     "_apply_covers.py",
