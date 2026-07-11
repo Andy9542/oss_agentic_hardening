@@ -20,4 +20,4 @@ Admission: YARA + LLM judge + dataflow in skills.
 
 ## Связи
 
-- Способ: [[27-skill-static-scan]]
+- Способ: [[27-статическая-проверка-навыков-и-плагинов]]

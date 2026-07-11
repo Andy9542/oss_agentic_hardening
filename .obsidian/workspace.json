@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "279e11792ca3e6f9",
+    "id": "8fd688a35be78ba1",
     "type": "split",
     "children": [
       {
-        "id": "558e4048ff0c28d3",
+        "id": "fabbed7d00dfa0a0",
         "type": "tabs",
         "children": [
           {
-            "id": "96090bf463cc95a3",
+            "id": "d4a800155b229eb5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30-mocs/MOC — Матрица угроз.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MOC — Матрица угроз"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "aada0ee4a1502c6d",
+    "id": "276e7f5e015918a8",
     "type": "split",
     "children": [
       {
-        "id": "001402393b66630f",
+        "id": "5c2f8a890aaea416",
         "type": "tabs",
         "children": [
           {
-            "id": "22d74b35e5d863cd",
+            "id": "bbaea821617287fa",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,12 +44,12 @@
             }
           },
           {
-            "id": "0964820476f95ef8",
+            "id": "5d11e43ec47f2a16",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "правила ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "62e8f704caabc148",
+            "id": "7ecd25850cdb9020",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "04e4d9850319d8fb",
+    "id": "d1a35fd5390deceb",
     "type": "split",
     "children": [
       {
-        "id": "c19c5515aab08e2a",
+        "id": "626a91554ab05fed",
         "type": "tabs",
         "children": [
           {
-            "id": "808e94b35a45b738",
+            "id": "e88039848ab45a13",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30-mocs/Правила связей.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +99,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки для Правила связей"
+              "title": "Обратные ссылки"
             }
           },
           {
-            "id": "26211f2dc4eeec6d",
+            "id": "e2aa89ffc279cacc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30-mocs/Правила связей.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Правила связей"
+              "title": "Исходящие ссылки"
             }
           },
           {
-            "id": "a8abb522a914625b",
+            "id": "020f89e547135c42",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,7 +131,7 @@
             }
           },
           {
-            "id": "2f04c7281f009835",
+            "id": "b2d89d628b2d03e9",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -151,26 +145,24 @@
             }
           },
           {
-            "id": "d92bc30f952b1043",
+            "id": "71f5f71d26f1a60b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "30-mocs/Правила связей.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Правила связей"
+              "title": "Структура"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,43 +175,43 @@
       "bases:Создать новую базу": false
     }
   },
-  "active": "96090bf463cc95a3",
+  "active": "d4a800155b229eb5",
   "lastOpenFiles": [
-    "30-mocs/MOC — Выводы.md",
-    "10-methods/19-injection-rules-args.md",
+    "10-methods/31-допуск-артефактов-и-отзыв-по-чёрному-списку.md",
+    "10-methods/45-agentdojo-как-эталонный-набор-испытаний.md",
+    "10-methods/43-две-модели-с-разделением-доверия-и-карантином.md",
+    "10-methods/41-сопоставление-защит-с-требованиями-стандартов.md",
+    "10-methods/27-статическая-проверка-навыков-и-плагинов.md",
+    "10-methods/23-единый-прокси-исходящих-запросов-и-защита-от-ssrf.md",
+    "10-methods/33-изоляция-агента-в-микровиртуальных-машинах-и-контейнерах.md",
+    "10-methods/13-проверка-аргументов-по-json-схеме.md",
+    "10-methods/11-ограничение-токенов-расходов-и-частоты-вызовов.md",
+    "10-methods/09-проверка-фактической-точности-и-галлюцинаций.md",
+    "10-methods/05-выявление-и-маскирование-персональных-данных.md",
     "30-mocs/MOC — Матрица угроз.md",
-    "10-methods/05-pii-masking-detection.md",
-    "30-mocs/MOC — Нечётные способы.md",
-    "30-mocs/00 Home.md",
-    "30-mocs/Правила связей.md",
-    "10-methods/37-behavioral-anomaly.md",
-    "10-methods/11-rate-cost-token-limits.md",
-    "10-methods/23-egress-proxy-ssrf.md",
-    "10-methods/01-ml-injection-classifier.md",
-    "10-methods/15-flow-rules.md",
-    "40-sources/source-mcp-tool-poisoning-research.md",
-    "_matrix_table.txt",
-    "_gen_matrix.py",
-    "40-sources/source-garak-encoding-probes.md",
-    "05-risks/LLM03-supply-chain.md",
+    "30-mocs/MOC — Выводы.md",
+    "20-implementations/agent-airlock-e2b-docker.md",
+    "10-methods/15-правила-последовательности-вызовов-и-потоков-данных.md",
+    "10-methods/07-выявление-секретов-в-тексте.md",
+    "10-methods/03-правила-и-шаблоны-для-выявления-инъекций.md",
+    "10-methods/01-классификация-инъекций-машинным-обучением.md",
     "10-methods/03-heuristics-regex-injection.md",
+    "github-100-repo.md",
+    "description-top-20.md",
+    "40-sources/source-mcp-tool-poisoning-research.md",
+    "40-sources/source-progent-paper.md",
+    "40-sources/source-presidio-overview.md",
+    "40-sources/source-garak-encoding-probes.md",
     "40-sources/source-owasp-llm-top10.md",
-    "05-risks/LLM01-prompt-injection.md",
-    "05-risks/LLM10-unbounded-consumption.md",
-    "05-risks/LLM09-misinformation.md",
-    "05-risks/LLM08-vector-embedding-weaknesses.md",
-    "05-risks/LLM07-system-prompt-leakage.md",
-    "05-risks/LLM06-excessive-agency.md",
-    "05-risks/LLM05-improper-output-handling.md",
-    "05-risks/LLM04-data-model-poisoning.md",
-    "05-risks/LLM02-sensitive-information-disclosure.md",
-    "05-risks",
-    "_fix_fm.py",
-    "_apply_covers.py",
-    "_finalize_methods.py",
-    "_debug.py",
-    "_restore_yaml.py",
-    "_fix_links.py",
-    "_cleanup_links.py"
+    "40-sources",
+    "claude",
+    "_gen_matrix.py",
+    "90-templates",
+    "30-mocs/even-methods-by-layer.base",
+    "30-mocs/demo-dlp-chain.canvas",
+    "30-mocs",
+    "20-implementations",
+    "10-methods",
+    "05-risks"
   ]
 }

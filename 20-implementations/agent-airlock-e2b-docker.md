@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation
 method-id: 33
 repo: https://github.com/sattyamjjain/agent-airlock
@@ -20,4 +20,4 @@ Sandbox layer: E2B Cloud, Docker, or local backend.
 
 ## Связи
 
-- Способ: [[33-microvm-container]]
+- Способ: [[33-изоляция-агента-в-микровиртуальных-машинах-и-контейнерах]]

@@ -33,4 +33,4 @@ Trace event pattern matching on OpenAI-compatible message arrays.
 
 ## Связи
 
-- Способ: [[15-flow-rules]]
+- Способ: [[15-правила-последовательности-вызовов-и-потоков-данных]]

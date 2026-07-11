@@ -20,4 +20,4 @@ Skill/MCP scanner: hash baseline for descriptions.
 
 ## Связи
 
-- Способ: [[25-rugpull-hash-baseline]]
+- Способ: [[25-контроль-целостности-описаний-инструментов]]

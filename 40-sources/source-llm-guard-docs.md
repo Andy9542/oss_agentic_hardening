@@ -22,4 +22,4 @@ https://protectai.github.io/llm-guard/
 
 ## Связи
 
-- [[01-ml-injection-classifier]]
+- [[01-классификация-инъекций-машинным-обучением]]

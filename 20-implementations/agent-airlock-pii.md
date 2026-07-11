@@ -20,4 +20,4 @@ PII layer in `@Airlock(mask_pii=True)` — 12 entity types.
 
 ## Связи
 
-- Способ: [[05-pii-masking-detection]]
+- Способ: [[05-выявление-и-маскирование-персональных-данных]]

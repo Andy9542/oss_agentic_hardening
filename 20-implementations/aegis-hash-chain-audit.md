@@ -20,4 +20,4 @@ Ed25519 + SHA-256 chained audit log; forensic PDF/CSV export.
 
 ## Связи
 
-- Способ: [[39-hash-chained-audit]]
+- Способ: [[39-неизменяемый-журнал-с-цепочкой-хешей-и-подписями]]

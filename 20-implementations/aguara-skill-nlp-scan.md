@@ -20,4 +20,4 @@ Patterns + NLP markdown parsing for hidden instructions.
 
 ## Связи
 
-- Способ: [[27-skill-static-scan]]
+- Способ: [[27-статическая-проверка-навыков-и-плагинов]]

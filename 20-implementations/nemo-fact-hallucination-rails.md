@@ -20,4 +20,4 @@ Output rails, retrieval rails: self-check output, facts with RAG.
 
 ## Связи
 
-- Способ: [[09-factcheck-hallucination]]
+- Способ: [[09-проверка-фактической-точности-и-галлюцинаций]]

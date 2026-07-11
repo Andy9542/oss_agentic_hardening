@@ -20,4 +20,4 @@ Agent Compliance module: OWASP ASI (10), HIPAA, SOC2, EU AI Act evidence.
 
 ## Связи
 
-- Способ: [[41-compliance-mapping]]
+- Способ: [[41-сопоставление-защит-с-требованиями-стандартов]]

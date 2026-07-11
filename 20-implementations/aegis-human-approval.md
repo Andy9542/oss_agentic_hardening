@@ -29,4 +29,4 @@ State machine: tool_call → pending → human decision → resume.
 
 ## Связи
 
-- Способ: [[21-human-in-the-loop]]
+- Способ: [[21-одобрение-опасных-действий-человеком]]

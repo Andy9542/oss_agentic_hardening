@@ -20,4 +20,4 @@ Ed25519 cryptographic receipts for proxy decisions.
 
 ## Связи
 
-- Способ: [[39-hash-chained-audit]]
+- Способ: [[39-неизменяемый-журнал-с-цепочкой-хешей-и-подписями]]

@@ -21,4 +21,4 @@ https://github.com/microsoft/presidio
 
 ## Связи
 
-- [[05-pii-masking-detection]]
+- [[05-выявление-и-маскирование-персональных-данных]]

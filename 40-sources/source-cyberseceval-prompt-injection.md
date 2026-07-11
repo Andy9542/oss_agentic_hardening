@@ -23,4 +23,4 @@ https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks
 
 ## Связи
 
-- [[01-ml-injection-classifier]]
+- [[01-классификация-инъекций-машинным-обучением]]

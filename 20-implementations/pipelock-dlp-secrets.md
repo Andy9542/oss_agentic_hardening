@@ -20,4 +20,4 @@ DLP layer: 48 templates + checksums; runs **before DNS**.
 
 ## Связи
 
-- Способ: [[07-secrets-detection-text]]
+- Способ: [[07-выявление-секретов-в-тексте]]

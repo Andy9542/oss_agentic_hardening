@@ -20,4 +20,4 @@ Optional 9-dimension anomaly after ~200 traces, 7-day baseline.
 
 ## Связи
 
-- Способ: [[37-behavioral-anomaly]]
+- Способ: [[37-выявление-поведенческих-отклонений]]

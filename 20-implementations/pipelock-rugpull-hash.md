@@ -20,4 +20,4 @@ MCP output layer: SHA256 of tools/list vs baseline.
 
 ## Связи
 
-- Способ: [[25-rugpull-hash-baseline]]
+- Способ: [[25-контроль-целостности-описаний-инструментов]]

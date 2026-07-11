@@ -28,4 +28,4 @@ Information flow control on values; untrusted never reaches privileged planner r
 
 ## Связи
 
-- Способ: [[43-dual-llm-quarantine]]
+- Способ: [[43-две-модели-с-разделением-доверия-и-карантином]]

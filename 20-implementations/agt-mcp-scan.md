@@ -20,4 +20,4 @@ mcp-scan: tool poisoning, rug-pull in MCP configs.
 
 ## Связи
 
-- Способ: [[25-rugpull-hash-baseline]]
+- Способ: [[25-контроль-целостности-описаний-инструментов]]

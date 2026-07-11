@@ -20,4 +20,4 @@ Built-in predicates on trace text for secrets detection.
 
 ## Связи
 
-- Способ: [[07-secrets-detection-text]]
+- Способ: [[07-выявление-секретов-в-тексте]]

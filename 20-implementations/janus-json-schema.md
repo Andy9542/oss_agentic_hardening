@@ -33,4 +33,4 @@ JSON Schema draft validation + default-deny policies.
 
 ## Связи
 
-- Способ: [[13-json-schema-args]]
+- Способ: [[13-проверка-аргументов-по-json-схеме]]

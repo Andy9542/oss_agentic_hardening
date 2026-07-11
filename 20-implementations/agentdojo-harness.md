@@ -28,4 +28,4 @@ ASR (attack success rate), utility (benign task success).
 
 ## Связи
 
-- Способ: [[45-agentdojo-benchmark]]
+- Способ: [[45-agentdojo-как-эталонный-набор-испытаний]]

@@ -20,4 +20,4 @@ JSRisk, PyRisk, RSBuild, ci-trust (GitHub Actions), lockfile parsers.
 
 ## Связи
 
-- Способ: [[29-package-ci-hooks]]
+- Способ: [[29-проверка-зависимостей-ci-и-сценариев-установки]]

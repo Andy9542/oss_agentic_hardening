@@ -21,4 +21,4 @@ Input/output rails: mask PII in Colang flows.
 
 ## Связи
 
-- Способ: [[05-pii-masking-detection]]
+- Способ: [[05-выявление-и-маскирование-персональных-данных]]

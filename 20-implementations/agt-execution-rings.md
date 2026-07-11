@@ -20,4 +20,4 @@ Agent Runtime: CPU-like privilege rings, sagas for multi-step ops.
 
 ## Связи
 
-- Способ: [[35-execution-rings-jail]]
+- Способ: [[35-уровни-исполнения-и-изоляция-рабочего-каталога]]

@@ -33,4 +33,4 @@ Regex/signatures on all strings in tool arguments.
 
 ## Связи
 
-- Способ: [[19-injection-rules-args]]
+- Способ: [[19-правила-против-инъекций-в-аргументах-инструментов]]

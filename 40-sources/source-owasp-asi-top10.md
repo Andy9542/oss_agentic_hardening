@@ -39,6 +39,6 @@ https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
 
 ## Связи
 
-- [[41-compliance-mapping]]
+- [[41-сопоставление-защит-с-требованиями-стандартов]]
 - [[source-owasp-llm-top10]]
 - [[MOC — Матрица угроз]]

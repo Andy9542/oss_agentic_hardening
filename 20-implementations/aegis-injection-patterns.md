@@ -42,4 +42,4 @@ Deep string extraction из args → regex/template match.
 
 ## Связи
 
-- Способ: [[03-heuristics-regex-injection]]
+- Способ: [[03-правила-и-шаблоны-для-выявления-инъекций]]

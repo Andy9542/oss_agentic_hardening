@@ -33,4 +33,4 @@ Token-bucket / rate limit at proxy layer.
 
 ## Связи
 
-- Способ: [[11-rate-cost-token-limits]]
+- Способ: [[11-ограничение-токенов-расходов-и-частоты-вызовов]]

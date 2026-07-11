@@ -8,38 +8,45 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:00-inbox  ",
+      "query": "path:30-mocs  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:10-methods  ",
+      "query": "path:00-inbox  ",
       "color": {
         "a": 1,
-        "rgb": 12732910
+        "rgb": 14725458
       }
     },
     {
-      "query": "path:20-implementations  ",
+      "query": "path:10-methods  ",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:30-mocs  ",
+      "query": "path:20-implementations  ",
       "color": {
         "a": 1,
-        "rgb": 3690495
+        "rgb": 1662177
       }
     },
     {
-      "query": "path:40-sources ",
+      "query": "path:40-sources  ",
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:",
+      "color": {
+        "a": 1,
+        "rgb": 11424480
       }
     }
   ],
@@ -53,6 +60,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7492774018164171,
-  "close": false
+  "scale": 0.35969143763980277,
+  "close": true
 }

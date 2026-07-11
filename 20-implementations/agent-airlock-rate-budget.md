@@ -37,4 +37,4 @@ OpenTelemetry export optional.
 
 ## Связи
 
-- Способ: [[11-rate-cost-token-limits]]
+- Способ: [[11-ограничение-токенов-расходов-и-частоты-вызовов]]

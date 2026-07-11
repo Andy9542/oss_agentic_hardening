@@ -20,4 +20,4 @@ AgentMesh: trust score 0–1000, behavioral levels.
 
 ## Связи
 
-- Способ: [[37-behavioral-anomaly]]
+- Способ: [[37-выявление-поведенческих-отклонений]]

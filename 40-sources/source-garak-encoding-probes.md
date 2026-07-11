@@ -21,4 +21,4 @@ https://github.com/leondz/garak
 
 ## Связи
 
-- [[03-heuristics-regex-injection]]
+- [[03-правила-и-шаблоны-для-выявления-инъекций]]

@@ -24,4 +24,4 @@ microVM per session; destroy after use; optional snapshots.
 
 ## Связи
 
-- Способ: [[33-microvm-container]]
+- Способ: [[33-изоляция-агента-в-микровиртуальных-машинах-и-контейнерах]]

@@ -20,4 +20,4 @@ Output scanner using embeddings (BGE) vs context.
 
 ## Связи
 
-- Способ: [[09-factcheck-hallucination]]
+- Способ: [[09-проверка-фактической-точности-и-галлюцинаций]]

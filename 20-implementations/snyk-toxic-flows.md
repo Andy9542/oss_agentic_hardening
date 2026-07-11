@@ -33,4 +33,4 @@ Graph of tools → co-occurrence / flow rules (static, pre-deploy).
 
 ## Связи
 
-- Способ: [[15-flow-rules]]
+- Способ: [[15-правила-последовательности-вызовов-и-потоков-данных]]

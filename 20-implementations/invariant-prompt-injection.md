@@ -42,4 +42,4 @@ Invariant Cloud API опционально (`INVARIANT_API_KEY`).
 
 ## Связи
 
-- Способ: [[01-ml-injection-classifier]]
+- Способ: [[01-классификация-инъекций-машинным-обучением]]

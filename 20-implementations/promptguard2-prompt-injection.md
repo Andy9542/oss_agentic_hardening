@@ -42,4 +42,4 @@ PromptGuard — локально (HuggingFace). AlignmentCheck — отдель�
 
 ## Связи
 
-- Способ: [[01-ml-injection-classifier]]
+- Способ: [[01-классификация-инъекций-машинным-обучением]]

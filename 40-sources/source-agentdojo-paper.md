@@ -22,4 +22,4 @@ https://arxiv.org/abs/2406.13352
 
 ## Связи
 
-- [[45-agentdojo-benchmark]]
+- [[45-agentdojo-как-эталонный-набор-испытаний]]

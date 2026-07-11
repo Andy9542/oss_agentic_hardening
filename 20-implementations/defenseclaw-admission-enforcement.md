@@ -20,4 +20,4 @@ Scan → quarantine → revoke sandbox (<2s); directory watcher rescan; OPA/Rego
 
 ## Связи
 
-- Способ: [[31-admission-blocklist]]
+- Способ: [[31-допуск-артефактов-и-отзыв-по-чёрному-списку]]

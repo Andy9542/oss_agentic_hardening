@@ -20,4 +20,4 @@ Workspace sandboxing: restrict file operations to directory.
 
 ## Связи
 
-- Способ: [[35-execution-rings-jail]]
+- Способ: [[35-уровни-исполнения-и-изоляция-рабочего-каталога]]
