@@ -14,7 +14,6 @@ except ImportError:
 FRONTMATTER = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
 WIKILINK_PATH = re.compile(r"\[\[[^\]]*\/[^\]]*\]\]")
 WIKILINK = re.compile(r"\[\[([^\]|#]+)")
-EVEN_BATCH = re.compile(r"even-batch")
 
 
 def lint(path: Path) -> list[str]:
@@ -49,8 +48,12 @@ def lint(path: Path) -> list[str]:
                                 errors.append(
                                     f"{field} must be slug without [[ or /]: {item!r}"
                                 )
-        if "10-methods" in rel and not EVEN_BATCH.search(blob):
-            errors.append("Even method should have tag even-batch")
+        if "10-methods" in rel:
+            num = re.match(r"(\d+)", path.stem)
+            if num:
+                expected = "even-batch" if int(num.group(1)) % 2 == 0 else "odd-batch"
+                if expected not in blob:
+                    errors.append(f"Method №{int(num.group(1))} should have tag {expected}")
 
     return errors
 
