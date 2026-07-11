@@ -11,7 +11,7 @@ status: draft
 sources: []
 tags:
   - agent-security
-  - even-batch
+  - even-batch # для нечётных способов — odd-batch
 covers: []
 ---
 

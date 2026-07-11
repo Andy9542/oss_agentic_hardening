@@ -33,3 +33,4 @@ tags:
 
 - [[MOC — Матрица угроз]]
 - [[source-owasp-llm-2025]]
+- [[source-owasp-llm-top10]]

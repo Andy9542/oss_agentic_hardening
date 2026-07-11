@@ -19,3 +19,4 @@ tags:
 - [[26-tool-poisoning-scan]]
 - [[28-toxic-flow-analysis]]
 - [[46-memory-protection]]
+- [[source-owasp-asi-top10]] — заметка нечётной ветки о том же стандарте
