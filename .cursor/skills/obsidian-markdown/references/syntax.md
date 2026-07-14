@@ -31,7 +31,6 @@ type: method
 id: 2
 tags:
   - agent-security
-  - even-batch
 covers:
   - ASI01
 complements:
@@ -68,7 +67,7 @@ Do not remove or break when editing method bodies.
 ## Project rules (10-methods/)
 
 - Cross-method references in prose: «способ №16 (IFC)», not wikilink
-- Tag `even-batch` on all even methods in this vault
+- Tag `agent-security` on all method notes in this vault
 - `covers:` only ASI01–ASI10, LLM01–LLM10
 
 ## Lint

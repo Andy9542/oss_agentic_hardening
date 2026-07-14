@@ -1,0 +1,40 @@
+{
+  "filters": {
+    "and": [
+      {
+        "field": "type",
+        "operator": "is",
+        "value": "method"
+      }
+    ]
+  },
+  "properties": {
+    "layer": {
+      "type": "text"
+    },
+    "effectiveness": {
+      "type": "text"
+    },
+    "robustness": {
+      "type": "text"
+    }
+  },
+  "views": [
+    {
+      "name": "Способы по слою",
+      "type": "table",
+      "order": [
+        "layer",
+        "file.name",
+        "effectiveness",
+        "robustness"
+      ],
+      "sort": [
+        {
+          "field": "layer",
+          "direction": "asc"
+        }
+      ]
+    }
+  ]
+}

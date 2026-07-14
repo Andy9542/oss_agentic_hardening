@@ -12,8 +12,13 @@ except ImportError:
     yaml = None
 
 FRONTMATTER = re.compile(r"^---\n(.*?)\n---", re.DOTALL)
-WIKILINK_PATH = re.compile(r"\[\[[^\]]*\/[^\]]*\]\]")
+WIKILINK_FULL = re.compile(r"\[\[([^\]]+)\]\]")
 WIKILINK = re.compile(r"\[\[([^\]|#]+)")
+
+
+def wikilink_target(raw: str) -> str:
+    """Target part of a wikilink body: strip alias (incl. escaped \\|) and anchor."""
+    return re.split(r"\\\||\|", raw)[0].split("#")[0].strip().rstrip("\\")
 
 
 def lint(path: Path) -> list[str]:
@@ -21,8 +26,12 @@ def lint(path: Path) -> list[str]:
     text = path.read_text(encoding="utf-8")
     rel = str(path)
 
-    if WIKILINK_PATH.search(text):
-        errors.append("Wikilink contains path separator — use [[slug]] not [[folder/slug]]")
+    for m in WIKILINK_FULL.finditer(text):
+        if "/" in wikilink_target(m.group(1)):
+            errors.append(
+                f"Wikilink target contains path separator — use [[slug]] not [[folder/slug]]: [[{m.group(1)}]]"
+            )
+            break
 
     if "10-methods" in rel:
         for m in WIKILINK.finditer(text):
@@ -48,12 +57,8 @@ def lint(path: Path) -> list[str]:
                                 errors.append(
                                     f"{field} must be slug without [[ or /]: {item!r}"
                                 )
-        if "10-methods" in rel:
-            num = re.match(r"(\d+)", path.stem)
-            if num:
-                expected = "even-batch" if int(num.group(1)) % 2 == 0 else "odd-batch"
-                if expected not in blob:
-                    errors.append(f"Method №{int(num.group(1))} should have tag {expected}")
+        if "10-methods" in rel and "agent-security" not in blob:
+            errors.append("Method note should have tag agent-security")
 
     return errors
 

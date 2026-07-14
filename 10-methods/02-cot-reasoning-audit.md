@@ -10,7 +10,6 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
-  - even-batch
 sources:
   - source-alignmentcheck-llamafirewall
   - source-owasp-llm-2025

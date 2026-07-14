@@ -10,7 +10,6 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
-  - even-batch
 sources:
   - source-agentpoison-arxiv
   - source-owasp-llm-2025
@@ -24,7 +23,7 @@ covers:
 
 ## Определение
 
-Защита **long-term memory** и RAG KB: pre-write validation, retrieval-time filtering, provenance/TTL. Расширение чётного набора (№46*). In-session PI → №1/№16; persistent store → здесь.
+Защита **long-term memory** и RAG KB: pre-write validation, retrieval-time filtering, provenance/TTL. Расширение основного набора (№46*). In-session PI → №1/№16; persistent store → здесь.
 
 ## Как это работает пошагово
 

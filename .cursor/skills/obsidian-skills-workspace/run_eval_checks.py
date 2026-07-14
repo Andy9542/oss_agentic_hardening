@@ -28,7 +28,7 @@ def main() -> int:
     method = REPO / "10-methods/02-cot-reasoning-audit.md"
     results.append(("method_lint", run_validator("lint_obsidian_md.py", method)))
 
-    base = REPO / "30-mocs/even-methods-by-layer.base"
+    base = REPO / "30-mocs/methods-by-layer.base"
     r = subprocess.run(
         [sys.executable, str(REPO / ".agents/skills/obsidian-bases/scripts/validate_base_json.py"), str(base)],
         capture_output=True,

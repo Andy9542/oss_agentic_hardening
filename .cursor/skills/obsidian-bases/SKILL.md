@@ -32,7 +32,7 @@ python .agents/skills/obsidian-bases/scripts/validate_base_json.py <file.base>
 
 ## Default views for this repo
 
-- **even-methods-by-layer.base** — `10-methods/`, tag `even-batch`, columns layer, effectiveness, robustness
+- **methods-by-layer.base** — `10-methods/`, filter `type: method`, columns layer, effectiveness, robustness
 - **implementations-by-method.base** — `20-implementations/`, column method-id, verdict, repo
 
 ## Pair with

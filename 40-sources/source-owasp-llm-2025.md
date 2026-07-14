@@ -18,4 +18,4 @@ tags:
 - [[10-json-schema-constrained]]
 - [[16-ifc-capability-taint]]
 - [[46-memory-protection]]
-- [[source-owasp-llm-top10]] — заметка нечётной ветки о том же стандарте
+- [[source-owasp-llm-top10]] — параллельная заметка о том же стандарте

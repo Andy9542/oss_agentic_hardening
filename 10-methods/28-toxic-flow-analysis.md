@@ -10,7 +10,6 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
-  - even-batch
 sources:
   - source-invariant-toxic-flow
   - source-owasp-agentic-2026

@@ -10,7 +10,6 @@ evidence-level: medium
 status: reviewed
 tags:
   - agent-security
-  - even-batch
 sources: []
 covers:
   - LLM05

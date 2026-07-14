@@ -8,7 +8,7 @@ Obsidian 1.8+ database views stored as `.base` JSON files.
 {
   "filters": {
     "and": [
-      { "field": "tags", "operator": "contains", "value": "even-batch" }
+      { "field": "type", "operator": "is", "value": "method" }
     ]
   },
   "properties": {
@@ -17,7 +17,7 @@ Obsidian 1.8+ database views stored as `.base` JSON files.
   },
   "views": [
     {
-      "name": "Чётные по слою",
+      "name": "Способы по слою",
       "type": "table",
       "order": ["layer", "file.name", "effectiveness"],
       "sort": [{ "field": "layer", "direction": "asc" }]
@@ -32,7 +32,7 @@ Obsidian 1.8+ database views stored as `.base` JSON files.
 
 | View | Папка | Filter |
 |------|-------|--------|
-| Methods by layer | `10-methods/` | `tags` contains `even-batch` |
+| Methods by layer | `10-methods/` | `type` is `method` |
 | Implementations | `20-implementations/` | `method-id` exists |
 | Sources | `40-sources/` | `type` = `source` |
 

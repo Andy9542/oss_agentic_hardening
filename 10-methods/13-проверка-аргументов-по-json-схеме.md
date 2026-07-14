@@ -10,7 +10,6 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
-  - odd-batch
   - validation
 covers:
   - ASI02
