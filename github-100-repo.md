@@ -168,9 +168,9 @@
 | 103 | [ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard) | 1+3 | Смешан. | №19 | Локальный MCP proxy: secret redaction, semantic injection classifier и контроль аргументов до tool call |
 | 104 | [agent-defense/parallax](https://github.com/agent-defense/parallax) | 2+3 | Детерм. | №15 | Out-of-band engine правил по lifecycle events: regex, Sigma, CEL и temporal SQL |
 | 105 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 2 | Смешан. | №27 | Статический и опциональный LLM-анализ agent skills, taint/YARA/OSV, SARIF и baseline |
-| 106 | [sleeepeer/PIArena](https://github.com/sleeepeer/PIArena) | — | Бенчмарк | №45 | Платформа сравнения prompt-injection атак и защит; AgentDojo, InjecAgent и AgentDyn |
+| 106 | [sleeepeer/PIArena](https://github.com/sleeepeer/PIArena) | — | Бенчмарк | №44 | Платформа сравнения prompt-injection атак и защит; AgentDojo, InjecAgent и AgentDyn |
 | 107 | [h5i-dev/h5i](https://github.com/h5i-dev/h5i) | 4 | Архит. | №35 | Изолированные worktree, Git-аудит, replay, peer review и verify gates для coding-агентов |
-| 108 | [onecli/onecli](https://github.com/onecli/onecli) | 3+4 | Архит. | №23 | Credential broker: gateway подставляет секрет в outbound request, агент ключ не видит |
+| 108 | [onecli/onecli](https://github.com/onecli/onecli) | 3+4 | Архит. | №14 | Credential broker: scoped permissions и deny mode до подстановки секрета в outbound request |
 | 109 | [aira-security/mcp-armor](https://github.com/aira-security/mcp-armor) | 2 | Смешан. | №25 | MCP inventory, poisoning/shadowing checks и baseline drift для rug-pull detection |
 | 110 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 2 | Вероятн. | №30 | Diff-aware LLM security review в GitHub Actions с фильтрацией false positives |
 | 111 | [highflame-ai/ramparts](https://github.com/highflame-ai/ramparts) | 2 | Смешан. | №26 | Единый Rust scanner MCP и skills: YARA, OSV, LLM, OWASP MCP mapping и SARIF |
