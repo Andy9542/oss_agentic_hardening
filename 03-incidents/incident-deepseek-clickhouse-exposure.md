@@ -6,7 +6,6 @@ status: confirmed-remediated
 affected: "DeepSeek public ClickHouse database"
 risk-ids:
   - ASI03
-  - LLM02
 tags:
   - agent-security
   - incident
@@ -27,7 +26,6 @@ Wiz обнаружила два internet-facing ClickHouse endpoint DeepSeek б�
 ## Связь с рисками
 
 - [[ASI03-identity-privilege-abuse]] — анонимный внешний субъект получал database privileges без identity check.
-- [[LLM02-sensitive-information-disclosure]] — в логах находились пользовательские диалоги, keys и внутренние детали сервиса.
 
 ## Последствия и реакция
 
