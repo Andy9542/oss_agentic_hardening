@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources: []
 covers:
   - ASI04

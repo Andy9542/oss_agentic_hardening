@@ -10,6 +10,7 @@ evidence-level: medium
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources:
   - source-owasp-llm-2025
 covers:

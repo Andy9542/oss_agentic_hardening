@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources:
   - source-owasp-llm-2025
 covers:
@@ -76,7 +77,7 @@ SORT file.name
 
 - способ №12 (policy engine)
 - способ №16 (IFC)
-- способ №19 (injection rules на args)
+- способ №19 (injection rules на args — нечётный)
 - способ №20 (ghost args)
 
 ## Требует

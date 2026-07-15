@@ -59,28 +59,28 @@
 
 Сводка из `handoff-even-classes.md` и `research/research_all_even_preflight_audit.md`:
 
-| № | Прогноз §12 | Тип примера |
-|---|-------------|-------------|
-| 4 | Есть | Мета-ирония: смешанные алфавиты в исходнике |
-| 6 | Возможен | Медленная утечка частями |
-| 8 | Скорее пусто | Карта, не акт |
-| 12 | Есть | Policy narrowing vs expansion (SMT) |
-| 14 | Вероятно пусто | Архитектурный слайд |
-| 18 | Карта | Граф ReBAC |
-| 20 | Мини-демо | Лишний ghost-аргумент |
-| 22 | Есть | Split-screen 22a kill / 22b breaker |
-| 24 | Есть | Gateway diagram |
-| 26 | Есть | Diff descriptions / rug-pull |
-| 28 | Есть (приоритет) | GitHub-MCP flow graph |
-| 30 | Короткий | Findings static analysis |
-| 32 | Пусто | Субстрат |
-| 34 | Есть | DNS/FS/syscall trace |
-| 36 | Есть | Trust handshake |
-| 38 | После №40 | Forensic trace + skill id |
-| 40 | Пусто | Telemetry pipeline |
-| 42 | Есть | Colang path diagram |
-| 44 | Есть | CI regression gate |
-| 46* | Кандидат сильный | Poisoned memory → retrieval → tool misuse |
+| №   | Прогноз §12      | Тип примера                                 |
+| --- | ---------------- | ------------------------------------------- |
+| 4   | Есть             | Мета-ирония: смешанные алфавиты в исходнике |
+| 6   | Возможен         | Медленная утечка частями                    |
+| 8   | Скорее пусто     | Карта, не акт                               |
+| 12  | Есть             | Policy narrowing vs expansion (SMT)         |
+| 14  | Вероятно пусто   | Архитектурный слайд                         |
+| 18  | Карта            | Граф ReBAC                                  |
+| 20  | Мини-демо        | Лишний ghost-аргумент                       |
+| 22  | Есть             | Split-screen 22a kill / 22b breaker         |
+| 24  | Есть             | Gateway diagram                             |
+| 26  | Есть             | Diff descriptions / rug-pull                |
+| 28  | Есть (приоритет) | GitHub-MCP flow graph                       |
+| 30  | Короткий         | Findings static analysis                    |
+| 32  | Пусто            | Субстрат                                    |
+| 34  | Есть             | DNS/FS/syscall trace                        |
+| 36  | Есть             | Trust handshake                             |
+| 38  | После №40        | Forensic trace + skill id                   |
+| 40  | Пусто            | Telemetry pipeline                          |
+| 42  | Есть             | Colang path diagram                         |
+| 44  | Есть             | CI regression gate                          |
+| 46* | Кандидат сильный | Poisoned memory → retrieval → tool misuse   |
 
 ## Пробелы в «примерах» как артефактах
 

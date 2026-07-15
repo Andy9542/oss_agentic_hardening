@@ -1,5 +1,6 @@
 ---
-type: implementation
+type: implementation-detail
+parent-repo: repo-00-slug
 method-id: 0
 repo: ""
 language: ""
@@ -41,4 +42,4 @@ tags:
 
 ## Связи
 
-- Способ: [[NN-slug-способа]] (единственный wikilink из реализации)
+- Репозиторий: [[repo-00-slug]]

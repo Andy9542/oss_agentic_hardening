@@ -42,4 +42,4 @@ https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/
 - [[41-сопоставление-защит-с-требованиями-стандартов]]
 - [[source-owasp-llm-top10]]
 - [[MOC — Матрица угроз]]
-- [[source-owasp-agentic-2026]] — параллельная заметка о том же стандарте
+- [[source-owasp-agentic-2026]] — заметка чётной ветки о том же стандарте

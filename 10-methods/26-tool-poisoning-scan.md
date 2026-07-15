@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources:
   - source-invariant-toxic-flow
   - source-owasp-agentic-2026
@@ -23,7 +24,7 @@ covers:
 
 ## Определение
 
-Скан **метаданных** инструментов: tools/list descriptions, имена, shadowing, unsafe command definitions, rug-pull. Объект = metadata; содержимое skills → способ №27.
+Скан **метаданных** инструментов: tools/list descriptions, имена, shadowing, unsafe command definitions, rug-pull. Объект = metadata; содержимое skills → способ №27 (нечётный).
 
 ## Как это работает пошагово
 
