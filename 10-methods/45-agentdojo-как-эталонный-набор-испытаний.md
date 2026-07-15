@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - odd-batch
   - benchmark
 sources:
   - source-progent-paper

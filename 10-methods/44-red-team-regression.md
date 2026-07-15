@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources: []
 covers: []
 ---
@@ -18,7 +19,7 @@ covers: []
 
 ## Определение
 
-**Тестовый контур**, не prod-защита: адверсариал-пробы (garak), regression eval (promptfoo), automation (PyRIT). Закрывает петлю обратной связи. AgentDojo → способ №45.
+**Тестовый контур**, не prod-защита: адверсариал-пробы (garak), regression eval (promptfoo), automation (PyRIT). Закрывает петлю обратной связи. AgentDojo → способ №45 (нечётный).
 
 ## Как это работает пошагово
 
@@ -59,7 +60,7 @@ SORT file.name
 
 ## Дополняет
 
-Весь реестр способов — петля обратной связи.
+Весь реестр чётных способов — петля обратной связи.
 
 ## Требует
 

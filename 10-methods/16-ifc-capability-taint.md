@@ -10,6 +10,7 @@ evidence-level: strong
 status: reviewed
 tags:
   - agent-security
+  - even-batch
 sources:
   - source-camel-ifc
   - source-owasp-llm-2025
@@ -26,7 +27,7 @@ covers:
 
 ## Определение
 
-Решение о допустимости по **происхождению данных**: capability-метки на значениях, IFC-propagation, policy engine перед tool_call, taint score сессии. CaMeL — пообъектная дисциплина; taint score — сессионный скаляр. Архитектурный носитель Q-LLM/P-LLM — способ №43 (один дизайн CaMeL).
+Решение о допустимости по **происхождению данных**: capability-метки на значениях, IFC-propagation, policy engine перед tool_call, taint score сессии. CaMeL — пообъектная дисциплина; taint score — сессионный скаляр. Архитектурный носитель Q-LLM/P-LLM — способ №43 (нечётный, один дизайн CaMeL).
 
 ## Как это работает пошагово
 

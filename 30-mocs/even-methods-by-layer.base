@@ -1,0 +1,20 @@
+{
+  "filters": {
+    "and": [
+      { "field": "tags", "operator": "contains", "value": "even-batch" }
+    ]
+  },
+  "properties": {
+    "layer": { "type": "text" },
+    "effectiveness": { "type": "text" },
+    "robustness": { "type": "text" }
+  },
+  "views": [
+    {
+      "name": "Чётные по слою",
+      "type": "table",
+      "order": ["layer", "file.name", "effectiveness", "robustness"],
+      "sort": [{ "field": "layer", "direction": "asc" }]
+    }
+  ]
+}
