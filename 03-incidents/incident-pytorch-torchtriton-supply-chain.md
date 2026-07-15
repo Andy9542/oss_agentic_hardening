@@ -7,7 +7,6 @@ affected: "PyTorch nightly Linux via pip, December 25–30 2022"
 risk-ids:
   - ASI04
   - ASI05
-  - LLM02
   - LLM03
 tags:
   - agent-security
@@ -30,7 +29,6 @@ PyTorch Foundation подтвердила supply-chain attack, опублико�
 
 - [[ASI04-agentic-supply-chain]] — dependency resolution подменил компонент ML/agent runtime из другого registry.
 - [[ASI05-unexpected-code-execution]] — malicious binary выполнялся внутри developer или workload environment.
-- [[LLM02-sensitive-information-disclosure]] — payload читал environment variables, git/SSH config и локальные файлы.
 - [[LLM03-supply-chain]] — публичный package index и совпадающее имя нарушили provenance dependency.
 
 ## Последствия и реакция
