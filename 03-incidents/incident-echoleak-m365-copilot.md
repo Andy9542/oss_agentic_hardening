@@ -9,7 +9,6 @@ risk-ids:
   - ASI02
   - ASI06
   - LLM01
-  - LLM02
   - LLM05
   - LLM06
   - LLM08
@@ -36,7 +35,6 @@ tags:
 - [[ASI02-tool-misuse]] — цепочка злоупотребляла автоматической загрузкой ресурса и доверенным прокси.
 - [[ASI06-memory-context-poisoning]] — вредоносное письмо становилось устойчивым недоверенным элементом рабочего контекста.
 - [[LLM01-prompt-injection]] — основной механизм атаки: indirect prompt injection.
-- [[LLM02-sensitive-information-disclosure]] — целью была эксфильтрация данных Microsoft 365.
 - [[LLM05-improper-output-handling]] — Markdown-вывод превращался клиентом в исходящий сетевой запрос.
 - [[LLM06-excessive-agency]] — ассистент одновременно имел доступ к данным и канал действия без отдельного подтверждения.
 - [[LLM08-vector-embedding-weaknesses]] — опасный документ попадал в retrieval-контур и смешивался с доверенным контекстом.
