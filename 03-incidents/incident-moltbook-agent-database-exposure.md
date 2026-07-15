@@ -8,7 +8,6 @@ risk-ids:
   - ASI03
   - ASI07
   - ASI10
-  - LLM02
 tags:
   - agent-security
   - incident
@@ -31,7 +30,6 @@ Wiz обнаружила клиентский ключ Supabase при отсу�
 - [[ASI03-identity-privilege-abuse]] — раскрытые токены позволяли полностью выдать себя за любого агента.
 - [[ASI07-insecure-inter-agent-communication]] — private agent-to-agent messages хранились без достаточного контроля доступа.
 - [[ASI10-rogue-agents]] — захваченная identity позволяла действовать от имени доверенного агента и внедрять контент.
-- [[LLM02-sensitive-information-disclosure]] — были доступны email, сообщения и сторонние API credentials.
 
 ## Последствия и реакция
 
