@@ -7,7 +7,6 @@ affected: "ChatGPT web service and Plus billing views"
 risk-ids:
   - ASI03
   - ASI08
-  - LLM02
 tags:
   - agent-security
   - incident
@@ -29,7 +28,6 @@ OpenAI опубликовала технический postmortem, исправ�
 
 - [[ASI03-identity-privilege-abuse]] — shared connection pool нарушил изоляцию identity между активными sessions.
 - [[ASI08-cascading-failures]] — редкий сбой общего cache layer распространился на chat history, billing view и email delivery.
-- [[LLM02-sensitive-information-disclosure]] — в другой user context могли попасть названия диалогов, сообщение и payment metadata.
 
 ## Последствия и реакция
 
