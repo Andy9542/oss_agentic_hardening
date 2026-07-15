@@ -1,6 +1,6 @@
 ---
 type: implementation
-method-id: 45
+method-id: 44
 repo: "https://github.com/sleeepeer/PIArena"
 language: "Python"
 license: "MIT"
@@ -49,8 +49,8 @@ Python и API/локальные endpoints тестируемых моделей
 
 ## Вердикт
 
-**экспериментально** — сильное дополнение к AgentDojo для сравнительной оценки prompt-injection защит; использовать как измеритель, а не как production-защиту.
+**экспериментально** — сильная платформа для сравнительной и регрессионной оценки prompt-injection защит на нескольких benchmark-наборах; использовать как измеритель, а не как production-защиту.
 
 ## Связи
 
-- Способ: [[45-agentdojo-как-эталонный-набор-испытаний]]
+- Способ: [[44-red-team-regression]]
