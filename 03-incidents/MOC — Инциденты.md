@@ -12,7 +12,7 @@ tags:
 
 ## Правила отбора
 
-- В каталоге — не более 40 уникальных incident cards; текущий объём — 28.
+- В каталоге — не более 40 уникальных incident cards; текущий объём — 29.
 - Ограничения числа cross-links на риск нет: один инцидент может показывать несколько рисков одной exploit chain.
 - Подтверждённый operational incident отделён от vulnerability disclosure, configuration/design disclosure и случая без известной эксплуатации.
 - Для каждого события дана первичная или официальная ссылка и, где возможно, независимое подтверждение.
@@ -35,6 +35,7 @@ tags:
 | 2025-06-27 | [[incident-mcp-inspector-rce-cve-2025-49596]] | CVE/RCE PoC, исправлено | ASI04, ASI05, LLM03 |
 | 2025-06-11 | [[incident-echoleak-m365-copilot]] | CVE/exploit chain, нет подтверждённого customer breach | ASI01, ASI02, ASI06, LLM01, LLM02, LLM05, LLM06, LLM08 |
 | 2025-05-14 | [[incident-grok-unauthorized-system-prompt-change]] | unauthorized prompt change, production behavior | ASI06, ASI10, LLM09 |
+| 2025-03-06 | [[incident-pravda-network-llm-grooming]] | documented influence campaign / observed retrieval contamination | LLM04, LLM09 |
 | 2025-01-29 | [[incident-deepseek-clickhouse-exposure]] | публичная unauthenticated database exposure | ASI03, LLM02 |
 | 2024-12-05 | [[incident-ultralytics-pypi-compromise]] | supply-chain incident | ASI04, LLM03 |
 | 2024-09-25 | [[incident-ftc-donotpay-ai-lawyer]] | FTC enforcement и settlement | ASI09, LLM09 |
@@ -50,7 +51,7 @@ tags:
 | 2023-03-20 | [[incident-chatgpt-redis-cross-user-exposure]] | cross-user data exposure, vendor postmortem | ASI03, ASI08, LLM02 |
 | 2023-02-08 | [[incident-bing-sydney-prompt-leak]] | подтверждённое production-preview behavior | LLM01, LLM07 |
 | 2022-12-30 | [[incident-pytorch-torchtriton-supply-chain]] | malicious PyPI dependency executed on import | ASI04, ASI05, LLM02, LLM03 |
-| 2016-03-24 | [[incident-microsoft-tay-poisoning]] | production incident | ASI06, LLM04 |
+| 2016-03-24 | [[incident-microsoft-tay-poisoning]] | production incident; LLM04 — квалифицированная аналогия | ASI06, LLM04 |
 
 ## Покрытие рисков
 
@@ -69,12 +70,12 @@ tags:
 | [[LLM01-prompt-injection]] | [[incident-servicenow-second-order-prompt-injection]], [[incident-echoleak-m365-copilot]], [[incident-slack-ai-indirect-prompt-injection]], [[incident-chatgpt-memory-prompt-injection]], [[incident-dpd-chatbot-prompt-manipulation]], [[incident-bing-sydney-prompt-leak]] | 6 |
 | [[LLM02-sensitive-information-disclosure]] | [[incident-huggingface-fake-openai-infostealer]], [[incident-clawhub-malicious-openclaw-skills]], [[incident-moltbook-agent-database-exposure]], [[incident-servicenow-second-order-prompt-injection]], [[incident-echoleak-m365-copilot]], [[incident-deepseek-clickhouse-exposure]], [[incident-slack-ai-indirect-prompt-injection]], [[incident-chatgpt-redis-cross-user-exposure]], [[incident-pytorch-torchtriton-supply-chain]] | 9 |
 | [[LLM03-supply-chain]] | [[incident-huggingface-fake-openai-infostealer]], [[incident-clawhub-malicious-openclaw-skills]], [[incident-amazon-q-vscode-extension-compromise]], [[incident-mcp-remote-rce-cve-2025-6514]], [[incident-mcp-inspector-rce-cve-2025-49596]], [[incident-ultralytics-pypi-compromise]], [[incident-pytorch-torchtriton-supply-chain]] | 7 |
-| [[LLM04-data-model-poisoning]] | [[incident-microsoft-tay-poisoning]] | 1 |
+| [[LLM04-data-model-poisoning]] | [[incident-pravda-network-llm-grooming]], [[incident-microsoft-tay-poisoning]] *(для Tay — квалифицированная историческая аналогия, не доказательство poisoning весов/индекса)* | 2 |
 | [[LLM05-improper-output-handling]] | [[incident-echoleak-m365-copilot]], [[incident-slack-ai-indirect-prompt-injection]] | 2 |
 | [[LLM06-excessive-agency]] | [[incident-jadepuffer-agentic-ransomware]], [[incident-clawhub-malicious-openclaw-skills]], [[incident-servicenow-bodysnatcher-cve-2025-12420]], [[incident-servicenow-second-order-prompt-injection]], [[incident-replit-production-database-deletion]], [[incident-echoleak-m365-copilot]] | 6 |
 | [[LLM07-system-prompt-leakage]] | [[incident-bing-sydney-prompt-leak]] | 1 |
 | [[LLM08-vector-embedding-weaknesses]] | [[incident-echoleak-m365-copilot]], [[incident-slack-ai-indirect-prompt-injection]], [[incident-chatgpt-memory-prompt-injection]] | 3 |
-| [[LLM09-misinformation]] | [[incident-replit-production-database-deletion]], [[incident-grok-unauthorized-system-prompt-change]], [[incident-ftc-donotpay-ai-lawyer]], [[incident-google-ai-overviews-erroneous-advice]], [[incident-chatgpt-memory-prompt-injection]], [[incident-nyc-mycity-illegal-advice]], [[incident-gemini-image-historical-inaccuracies]], [[incident-air-canada-chatbot-hallucination]], [[incident-dpd-chatbot-prompt-manipulation]], [[incident-mata-v-avianca-fake-citations]] | 10 |
+| [[LLM09-misinformation]] | [[incident-replit-production-database-deletion]], [[incident-grok-unauthorized-system-prompt-change]], [[incident-pravda-network-llm-grooming]], [[incident-ftc-donotpay-ai-lawyer]], [[incident-google-ai-overviews-erroneous-advice]], [[incident-chatgpt-memory-prompt-injection]], [[incident-nyc-mycity-illegal-advice]], [[incident-gemini-image-historical-inaccuracies]], [[incident-air-canada-chatbot-hallucination]], [[incident-dpd-chatbot-prompt-manipulation]], [[incident-mata-v-avianca-fake-citations]] | 11 |
 | [[LLM10-unbounded-consumption]] | [[incident-openai-ddos-outage-2023]] | 1 |
 
-**Итог:** 20/20 рисков покрыты; 28/40 уникальных карточек. Cross-links не считаются отдельными инцидентами.
+**Итог:** 20/20 рисков покрыты; 29/40 уникальных карточек. Cross-links не считаются отдельными инцидентами.
