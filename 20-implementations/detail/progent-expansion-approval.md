@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-10-progent
 method-id: 21
@@ -6,7 +6,8 @@ repo: https://github.com/sunblaze-ucb/progent
 language: Python
 license: MIT
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # Progent — expansion approval

@@ -2,13 +2,17 @@
 
 Полный текст: `30-mocs/Правила связей.md` в vault. **Не добавлять wikilink на этот файл** из заметок.
 
-## Три типа wikilink
+## Типы wikilink
 
 | Тип | Направление | Где |
 |-----|-------------|-----|
 | Навигация | MOC / Home → способ | `30-mocs/` |
-| Происхождение | Источник → способ | `40-sources/`, раздел «Связи» |
-| Реализация | Реализация → способ | `20-implementations/`, раздел «Связи» |
+| Происхождение | Источник → способ / repo | `40-sources/`, раздел «Связи» |
+| Каталог → способ | `repo-NN` → способ | `20-implementations/repo-*.md` |
+| Каталог → семейство | `repo-NN` → `cluster-*` | поле `clusters:` |
+| Деталь → каталог | `detail/*` → `repo-NN` | `20-implementations/detail/` |
+
+**Запрещено:** прямые wikilink между двумя `repo-*`.
 
 ## Запрещено
 
@@ -38,13 +42,14 @@ covers:
 
 ## Реализации
 
-- `method-id: <число>` в frontmatter
-- Ровно **один** wikilink в «Связи»: `[[02-cot-reasoning-audit]]` (slug файла без `.md`)
+- Каталог: `type: repo-catalog`, `catalog-id`, `method-id`, `also-method-ids`, `clusters`
+- Деталь: `type: implementation-detail`, `parent-repo: repo-NN-slug`, один wikilink на каталог
+- Dataview в способах фильтрует только `repo-catalog` по `method-id` и `also-method-ids`
 
 ## Источники
 
 - `sources:` в method → имена файлов из `40-sources/`
-- В source note — wikilink на способы в «Связи»
+- В source note — wikilink на способы и при необходимости на `repo-*`
 
 ## Фильтр графа
 

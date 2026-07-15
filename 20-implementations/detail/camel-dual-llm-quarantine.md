@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-56-camel-prompt-injection
 method-id: 43
@@ -6,7 +6,8 @@ repo: https://github.com/google-research/camel
 language: Python
 license: Apache-2.0
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # CaMeL — dual-LLM quarantine

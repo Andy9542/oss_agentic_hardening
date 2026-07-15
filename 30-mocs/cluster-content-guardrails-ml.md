@@ -20,7 +20,7 @@ tags:
 - способ №3 (03-правила-и-шаблоны-для-выявления-инъекций)
 - способ №8 (08-toxicity-moderation)
 
-## Варианты реализации (39)
+## Варианты реализации (42)
 
 - [[repo-02-pipelock]] — luckyPipewrench/pipelock: Прокси исходящего трафика: MCP, DLP, криптографические квитанции аудита
 - [[repo-03-aegis]] — Justin0504/Aegis: Шлюз с PDP: перехват вызовов, RBAC, аудит, SDK на Go/Python
@@ -60,10 +60,14 @@ tags:
 - [[repo-89-autodefense]] — XHMY/AutoDefense: Мультиагентная защита от jailbreak
 - [[repo-90-llm-self-defense]] — poloclub/llm-self-defense: Самопроверка: модель детектирует обман
 - [[repo-91-baseline-defenses]] — neelsjain/baseline-defenses: Базовые защиты от adversarial-атак
-- [[repo-92-prompt-injection-shield]] — MukundaKatta/prompt-injection-shield: Щит от инъекций для агентов
+- [[repo-92-prompt-injection-shield]] — MukundaKatta/prompt-injection-shield-py: Щит от инъекций (JS-оригинал 404)
 
+
+- [[repo-107-armorer-guard]] — ArmorerLabs/Armorer-Guard: Один локальный Rust binary нормализует текст, объединяет детерминированные правила, credential detector, TF-IDF linear c
+- [[repo-113-mcp-armor]] — aira-security/mcp-armor: Обнаруживает конфигурации MCP-клиентов, подключается к серверам, инвентаризирует tools/resources/prompts и сравнивает их
+- [[repo-114-claude-code-security-review]] — anthropics/claude-code-security-review: GitHub Action передаёт Claude Code diff и ограниченный контекст pull request, получает security findings, выполняет отде
 
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

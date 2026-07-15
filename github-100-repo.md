@@ -13,7 +13,7 @@
 
 Формат: **№ | репозиторий | слой | тип | суть**
 
-> Имя файла сохранено как стабильный канонический путь; фактический каталог расширен до 119 проектов.
+> Имя файла сохранено как стабильный канонический путь; фактический каталог расширен до **118** проектов.
 
 ### A. Среда выполнения и авторизация до вызова инструмента (20)
 
@@ -59,7 +59,7 @@
 | 33 | [[repo-33-agentseal|getagentseal/agentseal]] | 2 | Статич. | Подпись и верификация артефактов агентов |
 | 34 | [[repo-34-repo-forensics|alexgreensh/repo-forensics]] | 2 | Статич. | Офлайн-сканер навыков, плагинов, MCP |
 | 35 | [[repo-35-skillguard|obielin/skillguard]] | 2 | Статич. | Защита навыков агентов от компрометации |
-| 36 | [[repo-36-mcp-guardian|mcp-guardian/mcp-guardian]] | 3 | Детерм. | Runtime-защита MCP-серверов |
+| 36 | [[repo-36-mcp-guardian|eqtylab/mcp-guardian]] | 3 | Детерм. | Runtime-защита MCP-серверов |
 
 ### C. Барьеры и фильтры содержания (14)
 
@@ -145,10 +145,10 @@
 | 89 | [[repo-89-autodefense|XHMY/AutoDefense]] | 1 | Вероятн. | Мультиагентная защита от jailbreak |
 | 90 | [[repo-90-llm-self-defense|poloclub/llm-self-defense]] | 1 | Вероятн. | Самопроверка: модель детектирует обман |
 | 91 | [[repo-91-baseline-defenses|neelsjain/baseline-defenses]] | 1 | Смешан. | Базовые защиты от adversarial-атак |
-| 92 | [[repo-92-prompt-injection-shield|MukundaKatta/prompt-injection-shield]] | 1 | Вероятн. | Щит от инъекций для агентов |
+| 92 | [[repo-92-prompt-injection-shield|MukundaKatta/prompt-injection-shield-py]] | 1 | Детерм. | Щит от инъекций (порт; JS 404) |
 | 93 | [[repo-93-agentvet|MukundaKatta/agentvet]] | 2 | Статич. | Веттинг конфигураций агентов |
 | 94 | [[repo-94-agentguard|MukundaKatta/agentguard]] | 3 | Детерм. | Контроль сетевого egress агента |
-| 95 | [[repo-95-agent-bound|ElPaisano/agent-bound]] | 3 | Детерм. | Ограничение границ действий агента |
+| 95 | [[repo-95-agent-bound|ElPaisano/agent-bound]] | 3 | ? | Ограничение границ (репо 404) |
 
 ### I. Наблюдаемость и шлюзы с безопасностью (5)
 
@@ -172,30 +172,24 @@
 ---
 
 
-### K. Дополнение обзора 2026 (12)
+### K. Дополнение обзора 2026 (14)
 
 | № | Репозиторий | Слой | Тип | Основной способ | Суть |
 |---|-------------|------|-----|-----------------|------|
-| 105 | [pezhik/skilltotal](https://github.com/pezhik/skilltotal) | 2 | Статич. | №27 | Локальный regex+AST scanner skills, MCP, пакетов и AI-проектов; SARIF, baseline, diff и pre-install guard |
-| 106 | [arthurpanhku/dvalincode](https://github.com/arthurpanhku/dvalincode) | 3+4 | Смешан. | №35 | Policy-bound coding-agent runtime: сужающиеся политики, approvals, sandbox и hash-chained audit |
-| 107 | [ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard) | 1+3 | Смешан. | №19 | Локальный MCP proxy: secret redaction, semantic injection classifier и контроль аргументов до tool call |
-| 108 | [agent-defense/parallax](https://github.com/agent-defense/parallax) | 2+3 | Детерм. | №15 | Out-of-band engine правил по lifecycle events: regex, Sigma, CEL и temporal SQL |
-| 109 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 2 | Смешан. | №27 | Статический и опциональный LLM-анализ agent skills, taint/YARA/OSV, SARIF и baseline |
-| 110 | [sleeepeer/PIArena](https://github.com/sleeepeer/PIArena) | — | Бенчмарк | №44 | Платформа сравнения prompt-injection атак и защит; AgentDojo, InjecAgent и AgentDyn |
-| 111 | [h5i-dev/h5i](https://github.com/h5i-dev/h5i) | 4 | Архит. | №35 | Изолированные worktree, Git-аудит, replay, peer review и verify gates для coding-агентов |
-| 112 | [onecli/onecli](https://github.com/onecli/onecli) | 3+4 | Архит. | №14 | Credential broker: scoped permissions и deny mode до подстановки секрета в outbound request |
-| 113 | [aira-security/mcp-armor](https://github.com/aira-security/mcp-armor) | 2 | Смешан. | №25 | MCP inventory, poisoning/shadowing checks и baseline drift для rug-pull detection |
-| 114 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 2 | Вероятн. | №30 | Diff-aware LLM security review в GitHub Actions с фильтрацией false positives |
-| 115 | [highflame-ai/ramparts](https://github.com/highflame-ai/ramparts) | 2 | Смешан. | №26 | Единый Rust scanner MCP и skills: YARA, OSV, LLM, OWASP MCP mapping и SARIF |
-| 116 | [HiveTrace/HiveTraceRed](https://github.com/HiveTrace/HiveTraceRed) | — | Red team | №44 | Multilingual regression framework: 80+ jailbreak-атак, async pipeline и evaluators |
-
-### L. Источники из saved Telegram (3)
-
-| № | Репозиторий | Слой | Тип | Основной способ | Суть |
-|---|-------------|------|-----|-----------------|------|
-| 117 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | 3 | Детерм. | №19 | Pre-execution hook: контекстный разбор shell-команд, allowlist и packs опасных операций; fail-open, не самостоятельная security boundary |
-| 118 | [perplexityai/bumblebee](https://github.com/perplexityai/bumblebee) | 2 | Детерм. | №32 | Read-only endpoint inventory пакетов, расширений, tool metadata и MCP-конфигов с matching по exposure catalog |
-| 119 | [scadastrangelove/awesome-ai-security-tools](https://github.com/scadastrangelove/awesome-ai-security-tools) | — | Meta-каталог | — | Discovery-источник по AI security и AI-assisted security; включение не является оценкой зрелости |
+| 105 | [[repo-105-skilltotal\|pezhik/skilltotal]] | 2 | Статич. | №27 | Локальный regex+AST scanner skills, MCP, пакетов и AI-проектов; SARIF, baseline, diff и pre-install guard |
+| 106 | [[repo-106-dvalincode\|arthurpanhku/dvalincode]] | 3+4 | Смешан. | №12 | Policy-bound coding-agent runtime: сужающиеся политики, approvals, sandbox и hash-chained audit |
+| 107 | [[repo-107-armorer-guard\|ArmorerLabs/Armorer-Guard]] | 1+3 | Смешан. | №1 | Локальный MCP proxy: secret redaction, semantic injection classifier и контроль аргументов до tool call |
+| 108 | [[repo-108-parallax\|agent-defense/parallax]] | 2+3 | Детерм. | №12 | Out-of-band engine правил по lifecycle events: regex, Sigma, CEL и temporal SQL |
+| 109 | [[repo-109-nvidia-skillspector\|NVIDIA/SkillSpector]] | 2 | Смешан. | №27 | Статический и опциональный LLM-анализ agent skills, taint/YARA/OSV, SARIF и baseline |
+| 110 | [[repo-110-piarena\|sleeepeer/PIArena]] | — | Бенчмарк | №44 | Платформа сравнения prompt-injection атак и защит; AgentDojo, InjecAgent и AgentDyn |
+| 111 | [[repo-111-h5i\|h5i-dev/h5i]] | 4 | Архит. | №33 | Изолированные worktree, OS/container tiers, Git-аудит, peer review и verify gates |
+| 112 | [[repo-112-onecli\|onecli/onecli]] | 3+4 | Архит. | №14 | Credential broker: scoped permissions и deny mode до подстановки секрета в outbound request |
+| 113 | [[repo-113-mcp-armor\|aira-security/mcp-armor]] | 2 | Смешан. | №25 | MCP inventory, poisoning/shadowing checks и baseline drift для rug-pull detection |
+| 114 | [[repo-114-claude-code-security-review\|anthropics/claude-code-security-review]] | 2 | Вероятн. | №30 | Diff-aware LLM security review в GitHub Actions с фильтрацией false positives |
+| 115 | [[repo-115-ramparts\|highflame-ai/ramparts]] | 2 | Смешан. | №26 | Единый Rust scanner MCP и skills: YARA, OSV, LLM, OWASP MCP mapping и SARIF |
+| 116 | [[repo-116-hivetrace-red\|HiveTrace/HiveTraceRed]] | — | Red team | №44 | Multilingual regression framework: 80+ jailbreak-атак, async pipeline и evaluators |
+| 117 | [[repo-117-destructive-command-guard\|Dicklesworthstone/destructive_command_guard]] | 3 | Детерм. | №19 | Pre-execution hook: контекстный разбор shell-команд, allowlist и packs опасных операций; fail-open |
+| 118 | [[repo-118-bumblebee\|perplexityai/bumblebee]] | 2 | Детерм. | №32 | Read-only endpoint inventory пакетов, расширений, tool metadata и MCP-конфигов |
 
 ---
 

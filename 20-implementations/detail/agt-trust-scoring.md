@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-01-agent-governance-toolkit
 method-id: 37
@@ -6,7 +6,8 @@ repo: https://github.com/microsoft/agent-governance-toolkit
 language: Python
 license: MIT
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # AGT — trust scoring

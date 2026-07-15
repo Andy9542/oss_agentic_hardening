@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-22-aguara
 method-id: 29
@@ -6,7 +6,8 @@ repo: https://github.com/garagon/aguara
 language: Go
 license: MIT
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # aguara — package/CI scan

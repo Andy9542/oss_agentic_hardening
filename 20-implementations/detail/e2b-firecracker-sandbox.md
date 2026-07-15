@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-51-e2b
 method-id: 33
@@ -6,7 +6,8 @@ repo: https://github.com/e2b-dev/E2B
 language: Python/TS
 license: Apache-2.0
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # E2B — Firecracker sandbox

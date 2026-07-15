@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-38-guardrails
 method-id: 3
@@ -6,7 +6,8 @@ repo: https://github.com/NVIDIA-NeMo/Guardrails
 language: Python
 license: Apache-2.0
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # NeMo — jailbreak heuristics

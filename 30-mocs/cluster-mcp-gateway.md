@@ -25,12 +25,12 @@ tags:
 - [[repo-100-obot]] — obot-platform/obot: MCP-шлюз с контролем доступа и аудитом
 - [[repo-12-agentgateway]] — agentgateway/agentgateway: Шлюз MCP/A2A: маршрутизация, аутентификация, ограничение поверхностей
 - [[repo-14-interlock]] — MaazAhmed47/Interlock: Слой доверия MCP в рантайме
-- [[repo-36-mcp-guardian]] — mcp-guardian/mcp-guardian: Runtime-защита MCP-серверов
+- [[repo-36-mcp-guardian]] — eqtylab/mcp-guardian: Runtime-защита MCP-серверов
 - [[repo-47-invariant-gateway]] — invariantlabs-ai/invariant-gateway: Шлюз с политиками для агентных трасс
 - [[repo-58-mcp-gateway-registry]] — agentic-community/mcp-gateway-registry: Реестр и шлюз MCP с контролем доступа
 
 
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

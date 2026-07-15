@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-18-defenseclaw
 method-id: 31
@@ -6,7 +6,8 @@ repo: https://github.com/cisco-ai-defense/defenseclaw
 language: Python/Go/TS
 license: Apache-2.0
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # defenseclaw — admission enforcement

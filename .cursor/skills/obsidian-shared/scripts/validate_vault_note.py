@@ -58,6 +58,8 @@ def validate(path: Path) -> list[str]:
     except ValueError as e:
         return [str(e)]
 
+    note_type = (fm or {}).get("type") if isinstance(fm, dict) else None
+
     if fm is None and kind in ("method", "implementation", "source"):
         errors.append("Missing YAML frontmatter (--- ... ---)")
 
@@ -75,14 +77,39 @@ def validate(path: Path) -> list[str]:
                 )
 
     if kind == "implementation":
-        section = text.split("## Связи", 1)[1] if "## Связи" in text else ""
-        sec_links = WIKILINK.findall(section)
-        if len(sec_links) != 1:
-            errors.append(
-                f"Implementation must have exactly 1 wikilink in «Связи»; found {len(sec_links)}"
-            )
-        if not has_method_id(text, fm):
-            errors.append("Implementation missing method-id in frontmatter")
+        if note_type == "repo-catalog":
+            if "catalog-id" not in (fm or {}):
+                errors.append("repo-catalog missing catalog-id in frontmatter")
+            if not has_method_id(text, fm):
+                errors.append("repo-catalog missing method-id in frontmatter")
+            if "## Реализуемые способы" not in text:
+                errors.append("repo-catalog should have «Реализуемые способы» section")
+            # Forbid direct repo→repo wikilinks in body
+            for target in body_links:
+                slug = target.split("/")[-1]
+                if slug.startswith("repo-") and slug != path.stem:
+                    errors.append(f"repo-catalog must not wikilink other repos: [[{target}]]")
+        elif note_type == "implementation-detail":
+            section = text.split("## Связи", 1)[1] if "## Связи" in text else ""
+            sec_links = WIKILINK.findall(section)
+            if len(sec_links) != 1:
+                errors.append(
+                    f"implementation-detail must have exactly 1 wikilink in «Связи»; found {len(sec_links)}"
+                )
+            if not (fm or {}).get("parent-repo"):
+                errors.append("implementation-detail missing parent-repo in frontmatter")
+            if not has_method_id(text, fm):
+                errors.append("implementation-detail missing method-id in frontmatter")
+        else:
+            # Legacy standalone implementation (should not be created for new repos)
+            section = text.split("## Связи", 1)[1] if "## Связи" in text else ""
+            sec_links = WIKILINK.findall(section)
+            if len(sec_links) != 1:
+                errors.append(
+                    f"Implementation must have exactly 1 wikilink in «Связи»; found {len(sec_links)}"
+                )
+            if not has_method_id(text, fm):
+                errors.append("Implementation missing method-id in frontmatter")
 
     if kind == "source":
         if "## Связи" not in text:

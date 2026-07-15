@@ -53,7 +53,7 @@ def echelon_tables(gm, meta):
     high = defaultdict(set); mature = defaultdict(set)
     for asi, llm, primary, title, bid, ratings in gm.ROWS:
         tags = set()
-        for t in ([asi] + [x.strip() for x in llm.split(",")] + [primary]):
+        for t in ([x.strip() for x in asi.split(",")] + [x.strip() for x in llm.split(",")] + [primary]):
             if t and t.startswith("ASI"): tags.add(t)
         for i, val in enumerate(ratings):
             mid = i + 1

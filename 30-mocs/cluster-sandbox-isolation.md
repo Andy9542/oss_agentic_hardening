@@ -20,7 +20,7 @@ tags:
 - способ №35 (35-уровни-исполнения-и-изоляция-рабочего-каталога)
 - способ №34 (34-os-sandbox-openshell)
 
-## Варианты реализации (9)
+## Варианты реализации (11)
 
 - [[repo-04-rampart]] — peg/rampart: Файрвол для coding-агентов: политики на файловые и сетевые действия
 - [[repo-08-agent-airlock]] — sattyamjjain/agent-airlock: Декоратор для LangChain/CrewAI: валидация аргументов, RBAC, E2B-песочница
@@ -33,7 +33,10 @@ tags:
 - [[repo-55-openhands]] — All-Hands-AI/OpenHands: Агент с Docker-изоляцией выполнения
 
 
+- [[repo-106-dvalincode]] — arthurpanhku/dvalincode: Coding-agent runtime сводит машинную и репозиторную политики сужением разрешений, проверяет операции в единой точке вызо
+- [[repo-111-h5i]] — h5i-dev/h5i: Rust CLI создаёт Git-addressed environments для агентов, выбирает наиболее сильный доступный isolation tier, фиксирует p
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

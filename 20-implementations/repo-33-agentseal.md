@@ -56,8 +56,8 @@ clusters:
 
 ## Детальные разборы
 
-- [[impl-agentseal]]
-- [[impl-agentseal-unicode]]
+- [[agentseal-toolkit]]
+
 
 
 ## Реализуемые способы

@@ -58,9 +58,9 @@ clusters:
 
 ## Детальные разборы
 
-- [[impl-snyk-agent-scan]]
-- [[impl-snyk-aibom]]
+- [[snyk-agent-scan-discovery]]
 - [[snyk-toxic-flows]]
+
 
 
 ## Реализуемые способы

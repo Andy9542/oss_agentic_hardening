@@ -23,7 +23,7 @@ tags:
 - способ №36 (36-crypto-agent-identity)
 - способ №39 (39-неизменяемый-журнал-с-цепочкой-хешей-и-подписями)
 
-## Варианты реализации (6)
+## Варианты реализации (7)
 
 - [[repo-01-agent-governance-toolkit]] — microsoft/agent-governance-toolkit: Agent OS: ядро политик, идентичность агента, песочницы, адаптеры для LangGraph/CrewAI/ADK
 - [[repo-02-pipelock]] — luckyPipewrench/pipelock: Прокси исходящего трафика: MCP, DLP, криптографические квитанции аудита
@@ -33,7 +33,9 @@ tags:
 - [[repo-57-pipelock-verify-python]] — luckyPipewrench/pipelock-verify-python: Верификатор криптографических квитанций Pipelock
 
 
+- [[repo-111-h5i]] — h5i-dev/h5i: Rust CLI создаёт Git-addressed environments для агентов, выбирает наиболее сильный доступный isolation tier, фиксирует p
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

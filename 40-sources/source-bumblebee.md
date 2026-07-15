@@ -27,4 +27,4 @@ https://github.com/perplexityai/bumblebee
 ## Связи
 
 - [[32-aibom-inventory]]
-- [[impl-bumblebee]]
+- [[repo-118-bumblebee]]

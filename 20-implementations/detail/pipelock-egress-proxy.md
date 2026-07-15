@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-02-pipelock
 method-id: 23
@@ -6,7 +6,8 @@ repo: https://github.com/luckyPipewrench/pipelock
 language: Go
 license: Apache-2.0
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # Pipelock — прокси исходящего трафика и SSRF

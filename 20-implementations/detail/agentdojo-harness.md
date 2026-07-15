@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-66-agentdojo
 method-id: 45
@@ -6,7 +6,8 @@ repo: https://github.com/ethz-spylab/agentdojo
 language: Python
 license: MIT
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # AgentDojo — harness

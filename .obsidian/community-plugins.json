@@ -1,5 +1,9 @@
 [
   "dataview",
   "wikilink-types",
-  "graph-link-types"
+  "graph-link-types",
+  "longform",
+  "open-tab-settings",
+  "pane-relief",
+  "obsidian-image-toolkit"
 ]

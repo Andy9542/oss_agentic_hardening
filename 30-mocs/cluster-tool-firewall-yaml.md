@@ -20,7 +20,7 @@ tags:
 - способ №14 (14-default-deny-allowlists)
 - способ №21 (21-одобрение-опасных-действий-человеком)
 
-## Варианты реализации (21)
+## Варианты реализации (23)
 
 - [[repo-01-agent-governance-toolkit]] — microsoft/agent-governance-toolkit: Agent OS: ядро политик, идентичность агента, песочницы, адаптеры для LangGraph/CrewAI/ADK
 - [[repo-03-aegis]] — Justin0504/Aegis: Шлюз с PDP: перехват вызовов, RBAC, аудит, SDK на Go/Python
@@ -38,14 +38,17 @@ tags:
 - [[repo-18-defenseclaw]] — cisco-ai-defense/defenseclaw: CodeGuard, песочница, SSRF-защита реестра, аудит
 - [[repo-19-bifrost]] — maximhq/bifrost: AI-шлюз с встроенными барьерами и лимитами
 - [[repo-32-clawsec]] — prompt-security/clawsec: Набор security-навыков для OpenClaw-семейства
-- [[repo-36-mcp-guardian]] — mcp-guardian/mcp-guardian: Runtime-защита MCP-серверов
+- [[repo-36-mcp-guardian]] — eqtylab/mcp-guardian: Runtime-защита MCP-серверов
 - [[repo-50-agentshield]] — AdityaBelhekar/AgentShield: Runtime SDK: перехват вызовов в приложении
 - [[repo-63-opa]] — open-policy-agent/opa: Движок политик Rego для авторизации
 - [[repo-94-agentguard]] — MukundaKatta/agentguard: Контроль сетевого egress агента
 - [[repo-95-agent-bound]] — ElPaisano/agent-bound: Ограничение границ действий агента
 
 
+- [[repo-106-dvalincode]] — arthurpanhku/dvalincode: Coding-agent runtime сводит машинную и репозиторную политики сужением разрешений, проверяет операции в единой точке вызо
+- [[repo-108-parallax]] — agent-defense/parallax: Внешний Rust service принимает lifecycle events агента и прогоняет их через cost-ordered chain из regex, keyword, Sigma,
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

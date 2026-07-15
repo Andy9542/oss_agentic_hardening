@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-21-agent-scan
 method-id: 15
@@ -6,7 +6,8 @@ repo: https://github.com/snyk/agent-scan
 language: TypeScript
 license: Apache-2.0
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # snyk/agent-scan — toxic flows

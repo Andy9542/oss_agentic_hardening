@@ -30,7 +30,8 @@ Repository root (`README.md` describes layout). Open this folder as Obsidian vau
 | Find note | `Glob **/*.md`, `Grep` by title or `covers:` |
 | Read | `Read` path relative to repo root |
 | Create method | Copy `90-templates/TPL-method.md` → `10-methods/NN-slug.md` |
-| Create implementation | Copy `90-templates/TPL-implementation.md` → `20-implementations/impl-*.md` |
+| Create repo catalog | Copy `90-templates/TPL-repo-catalog.md` → `20-implementations/repo-NN-slug.md` |
+| Create detail | Copy `90-templates/TPL-implementation.md` → `20-implementations/detail/*.md` |
 | Create source | `40-sources/source-*.md` with `type: source` |
 | Update MOC | Edit `30-mocs/`; regen matrix if `covers:` changed |
 

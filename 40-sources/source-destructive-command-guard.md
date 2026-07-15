@@ -27,4 +27,4 @@ https://github.com/Dicklesworthstone/destructive_command_guard
 ## Связи
 
 - [[19-правила-против-инъекций-в-аргументах-инструментов]]
-- [[impl-destructive-command-guard]]
+- [[repo-117-destructive-command-guard]]

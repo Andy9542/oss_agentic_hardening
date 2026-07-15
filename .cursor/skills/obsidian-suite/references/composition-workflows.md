@@ -20,9 +20,11 @@ obsidian-defuddle (optional URL)
 
 ## Recipe 2: New implementation
 
-1. **obsidian-vault** — copy `90-templates/TPL-implementation.md` → `20-implementations/impl-<name>.md`
-2. Set `method-id`, fill repo/verdict; **one** wikilink in «Связи»
-3. **obsidian-markdown** + **validate_vault_note.py**
+1. **obsidian-vault** — copy `90-templates/TPL-repo-catalog.md` → `20-implementations/repo-NN-slug.md`
+2. Set `catalog-id`, `method-id`, `also-method-ids`, `clusters`; wikilink ways in «Реализуемые способы»
+3. Optional details: copy `90-templates/TPL-implementation.md` → `20-implementations/detail/*.md` with `parent-repo`
+4. **obsidian-markdown** + **validate_vault_note.py**
+5. Add row to `github-100-repo.md` and membership in `30-mocs/cluster-*.md`
 
 ## Recipe 3: Research clip + pipeline link
 

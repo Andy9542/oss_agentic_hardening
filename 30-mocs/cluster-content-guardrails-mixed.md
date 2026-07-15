@@ -21,7 +21,7 @@ tags:
 - способ №15 (15-правила-последовательности-вызовов-и-потоков-данных)
 - способ №5 (05-выявление-и-маскирование-персональных-данных)
 
-## Варианты реализации (10)
+## Варианты реализации (14)
 
 - [[repo-08-agent-airlock]] — sattyamjjain/agent-airlock: Декоратор для LangChain/CrewAI: валидация аргументов, RBAC, E2B-песочница
 - [[repo-29-agentic-radar]] — splx-ai/agentic-radar: Карта потоков данных в LangGraph/CrewAI/n8n
@@ -35,7 +35,12 @@ tags:
 - [[repo-99-presidio]] — microsoft/presidio: Детекция и анонимизация ПДн в потоках агента
 
 
+- [[repo-107-armorer-guard]] — ArmorerLabs/Armorer-Guard: Один локальный Rust binary нормализует текст, объединяет детерминированные правила, credential detector, TF-IDF linear c
+- [[repo-108-parallax]] — agent-defense/parallax: Внешний Rust service принимает lifecycle events агента и прогоняет их через cost-ordered chain из regex, keyword, Sigma,
+- [[repo-109-nvidia-skillspector]] — NVIDIA/SkillSpector: LangGraph-конвейер разрешает Git/URL/ZIP/файл, строит общий контекст, параллельно запускает 22 анализатора и передаёт fi
+- [[repo-115-ramparts]] — highflame-ai/ramparts: Rust CLI подключается к живым MCP-серверам или читает agent skills, прогоняет данные через structural checks, YARA-X и о
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

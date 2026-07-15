@@ -4,9 +4,10 @@ catalog-id: 36
 method-id: 24
 also-method-ids:
   - 14
-repo: https://github.com/mcp-guardian/mcp-guardian
-language: Unknown
-license: ""
+  - 21
+repo: https://github.com/eqtylab/mcp-guardian
+language: Rust
+license: Apache-2.0
 verdict: experimental
 tags:
   - agent-security
@@ -17,11 +18,13 @@ clusters:
   - cluster-tool-firewall-yaml
 ---
 
-# mcp-guardian/mcp-guardian — каталог №36
+# eqtylab/mcp-guardian — каталог №36
 
 ## Репозиторий
 
-[mcp-guardian/mcp-guardian](https://github.com/mcp-guardian/mcp-guardian)
+[eqtylab/mcp-guardian](https://github.com/eqtylab/mcp-guardian)
+
+Каталожный URL `mcp-guardian/mcp-guardian` на 2026-07-15 был недоступен (404). Канонический OSS-проект с брендом **MCP Guardian** (runtime proxy + approvals): `eqtylab/mcp-guardian`.
 
 ## Слой и тип
 
@@ -33,28 +36,32 @@ clusters:
 
 ## Принцип работы
 
-Runtime-защита MCP-серверов
+Runtime-прокси MCP: логирование, human approval tool calls, управление коллекциями серверов.
 
 ## Алгоритм
 
-Runtime-защита MCP-серверов.
+Хост LLM → `mcp-guardian-proxy` → upstream MCP server; сообщения могут ждать approve/deny.
 
-Каталожная заметка: основной механизм — **способ №24**; дополнительно перекрывает: способ №14.
+Каталожная заметка: основной механизм — **способ №24**; дополнительно: способ №14, способ №21 (HITL).
 
 ## Вариант в семействе
 
-Runtime-защита MCP-серверов. Родственные реализации — только через семейства: runtime trust MCP, MCP/A2A шлюзы, YAML-файрволы tools.
-
+Runtime-защита MCP-серверов (EQTY Lab). Не путать со сканером описаний tools alexandriashai/mcp-guardian (каталог №28).
 
 ## Детерминизм или машинное обучение
 
-Тип из каталога: **Детерм.**.
+Тип из каталога: **Детерм.** (HITL + proxy).
 
 ## Вердикт
 
-**экспериментально** — каталожная оценка по зрелости репозитория в экосистеме.
+**экспериментально** — полезный HITL MCP proxy; automated scans в README ещё «Coming Soon».
+
+## Детальные разборы
+
+- [[mcp-guardian-proxy]]
 
 ## Реализуемые способы
 
 - [[24-mcp-gateway-rbac]] — основной
 - [[14-default-deny-allowlists]]
+- [[21-одобрение-опасных-действий-человеком]]

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:Статья  -file:cluster",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,10 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:00-inbox  ",
+      "query": "path:20-implementations/detail  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 16771584
       }
     },
     {
@@ -25,14 +25,14 @@
       "query": "path:20-implementations  ",
       "color": {
         "a": 1,
-        "rgb": 11657298
+        "rgb": 193066
       }
     },
     {
       "query": "path:30-mocs  ",
       "color": {
         "a": 1,
-        "rgb": 3690495
+        "rgb": 262399
       }
     },
     {
@@ -40,6 +40,13 @@
       "color": {
         "a": 1,
         "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:05-risks  ",
+      "color": {
+        "a": 1,
+        "rgb": 16768256
       }
     }
   ],
@@ -49,10 +56,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.135416666666667,
+  "repelStrength": 10.1041666666667,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.5426258124857769,
+  "scale": 0.24116702777145615,
   "close": false
 }

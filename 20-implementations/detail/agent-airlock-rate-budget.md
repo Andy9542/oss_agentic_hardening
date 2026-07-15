@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-08-agent-airlock
 method-id: 11
@@ -6,7 +6,8 @@ repo: https://github.com/sattyamjjain/agent-airlock
 language: Python
 license: MIT
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # agent-airlock — rate and budget

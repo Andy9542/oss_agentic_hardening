@@ -8,10 +8,10 @@
 |-------|------------|
 | `05-risks/` | OWASP ASI01–ASI10, LLM01–LLM10 |
 | `10-methods/` | Все 46 способов защиты (тег `agent-security`) |
-| `20-implementations/` | OSS/продуктовые реализации |
-| `30-mocs/` | Home, MOC, матрица угроз, выводы |
+| `20-implementations/` | Каталог `repo-NN-*` + детали `detail/` |
+| `30-mocs/` | Home, MOC, матрица угроз, выводы, кластеры |
 | `40-sources/` | Первоисточники и papers |
-| `90-templates/` | `TPL-method.md`, `TPL-implementation.md` |
+| `90-templates/` | `TPL-method.md`, `TPL-repo-catalog.md`, `TPL-implementation.md` |
 
 ## Pipeline (не трогать без явного запроса)
 
@@ -27,8 +27,14 @@
 ## Шаблоны
 
 - Новый способ: `90-templates/TPL-method.md` → `10-methods/NN-slug.md`
-- Новая реализация: `90-templates/TPL-implementation.md` → `20-implementations/impl-*.md`
-- Новый источник: frontmatter `type: source`, раздел «Связи» с wikilink на способы
+- Новый репозиторий в каталоге: `90-templates/TPL-repo-catalog.md` → `20-implementations/repo-NN-slug.md`
+- Новый детальный разбор: `90-templates/TPL-implementation.md` → `20-implementations/detail/*.md`
+- Новый источник: frontmatter `type: source`, раздел «Связи» с wikilink на способы и/или `repo-*`
+- Корневые `20-implementations/impl-*.md` не создавать
+
+## Глубина detail-заметок
+
+`detail/*` — педагогический слой: не только имя технологии, но объяснение «что это», пошаговый алгоритм, конкретные артефакты из кода (regex, правило политики, порог модели, AST-паттерн) и мини-пример «вход → решение». Ориентир 80–180 строк на один механизм. Каталог `repo-*` остаётся кратким обзором со ссылками на detail.
 
 ## Матрица угроз
 

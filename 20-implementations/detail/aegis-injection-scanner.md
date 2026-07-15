@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-03-aegis
 method-id: 19
@@ -6,7 +6,8 @@ repo: https://github.com/Justin0504/Aegis
 language: Go
 license: MIT
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # Aegis — injection scanner (args)

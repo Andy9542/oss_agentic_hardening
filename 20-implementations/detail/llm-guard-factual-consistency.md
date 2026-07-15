@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-40-llm-guard
 method-id: 9
@@ -6,7 +6,8 @@ repo: https://github.com/protectai/llm-guard
 language: Python
 license: Apache-2.0
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # llm-guard — FactualConsistency

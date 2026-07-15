@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-46-invariant
 method-id: 1
@@ -6,7 +6,8 @@ repo: https://github.com/invariantlabs-ai/invariant
 language: Python
 license: Apache-2.0
 verdict: exp
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # Invariant — prompt_injection()

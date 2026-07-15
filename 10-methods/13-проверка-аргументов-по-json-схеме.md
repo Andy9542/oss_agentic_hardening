@@ -76,8 +76,8 @@ Python-модели с запретом неявного приведения т
 ```dataview
 TABLE verdict AS "Вердикт", repo AS "Репозиторий"
 FROM "20-implementations"
-WHERE method-id = this.id
-SORT file.name
+WHERE type = "repo-catalog" AND (method-id = this.id OR contains(also-method-ids, this.id))
+SORT catalog-id ASC
 ```
 
 

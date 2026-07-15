@@ -21,7 +21,7 @@ tags:
 - способ №28 (28-toxic-flow-analysis)
 - способ №25 (25-контроль-целостности-описаний-инструментов)
 
-## Варианты реализации (20)
+## Варианты реализации (25)
 
 - [[repo-01-agent-governance-toolkit]] — microsoft/agent-governance-toolkit: Agent OS: ядро политик, идентичность агента, песочницы, адаптеры для LangGraph/CrewAI/ADK
 - [[repo-17-agentguard]] — GoPlusSecurity/agentguard: Хуки в рантайме: сканирование навыков, блокировка опасных действий
@@ -45,7 +45,13 @@ tags:
 - [[repo-93-agentvet]] — MukundaKatta/agentvet: Веттинг конфигураций агентов
 
 
+- [[repo-105-skilltotal]] — pezhik/skilltotal: Локально и без исполнения исследуемого компонента индексирует skills, MCP-серверы, npm/PyPI-пакеты и проекты, затем объе
+- [[repo-109-nvidia-skillspector]] — NVIDIA/SkillSpector: LangGraph-конвейер разрешает Git/URL/ZIP/файл, строит общий контекст, параллельно запускает 22 анализатора и передаёт fi
+- [[repo-113-mcp-armor]] — aira-security/mcp-armor: Обнаруживает конфигурации MCP-клиентов, подключается к серверам, инвентаризирует tools/resources/prompts и сравнивает их
+- [[repo-115-ramparts]] — highflame-ai/ramparts: Rust CLI подключается к живым MCP-серверам или читает agent skills, прогоняет данные через structural checks, YARA-X и о
+- [[repo-118-bumblebee]] — perplexityai/bumblebee: Read-only сенсор инвентаризирует пакеты, расширения, agent skills и MCP-конфигурации на developer endpoints и может сопо
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

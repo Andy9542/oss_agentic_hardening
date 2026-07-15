@@ -60,6 +60,8 @@ Go-сканер навыков: паттерны, NLP, rug-pull. Родстве�
 - [[aguara-package-ci-scan]]
 - [[aguara-rugpull]]
 - [[aguara-skill-nlp-scan]]
+- [[aguara-skill-pattern-scan]]
+
 
 
 ## Реализуемые способы

@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-11-janus
 method-id: 35
@@ -6,7 +6,8 @@ repo: https://github.com/Agentic-AI-Risk-Mitigation/Janus
 language: Python
 license: Apache-2.0
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # Janus — workspace jail

@@ -1,4 +1,4 @@
-﻿---
+---
 type: implementation-detail
 parent-repo: repo-37-purplellama
 method-id: 1
@@ -6,7 +6,8 @@ repo: https://github.com/meta-llama/PurpleLlama
 language: Python
 license: MIT
 verdict: prod
-tags: [agent-security]
+tags:
+  - agent-security
 ---
 
 # PromptGuard 2 — LlamaFirewall

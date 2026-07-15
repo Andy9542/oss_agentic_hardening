@@ -19,7 +19,7 @@ tags:
 - способ №44 (44-red-team-regression)
 - способ №1 (01-классификация-инъекций-машинным-обучением)
 
-## Варианты реализации (20)
+## Варианты реализации (22)
 
 - [[repo-104-agentpoison]] — BillChan226/AgentPoison: Red-team: backdoor через poisoning memory/RAG KB (NeurIPS 2024, arXiv:2407.12784)
 - [[repo-44-circuit-breakers]] — GraySwanAI/circuit-breakers: «Автоматические выключатели» в весах модели
@@ -43,7 +43,10 @@ tags:
 - [[repo-87-promptmap]] — utkusen/promptmap: Сканер инъекций white/black-box
 
 
+- [[repo-110-piarena]] — sleeepeer/PIArena: Платформа сравнивает prompt-injection атаки и защиты на общих наборах данных, а также запускает агентные сценарии AgentD
+- [[repo-116-hivetrace-red]] — HiveTrace/HiveTraceRed: Multilingual red-team framework генерирует jailbreak-промпты, асинхронно опрашивает целевые модели, оценивает ответы и ф
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

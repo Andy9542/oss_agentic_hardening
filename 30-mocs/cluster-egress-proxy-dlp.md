@@ -21,7 +21,7 @@ tags:
 - способ №7 (07-выявление-секретов-в-тексте)
 - способ №39 (39-неизменяемый-журнал-с-цепочкой-хешей-и-подписями)
 
-## Варианты реализации (7)
+## Варианты реализации (10)
 
 - [[repo-02-pipelock]] — luckyPipewrench/pipelock: Прокси исходящего трафика: MCP, DLP, криптографические квитанции аудита
 - [[repo-06-zerotrust-agents]] — lokeshsk/zerotrust-agents: Zero-trust прокси между агентом и API
@@ -32,7 +32,11 @@ tags:
 - [[repo-99-presidio]] — microsoft/presidio: Детекция и анонимизация ПДн в потоках агента
 
 
+- [[repo-106-dvalincode]] — arthurpanhku/dvalincode: Coding-agent runtime сводит машинную и репозиторную политики сужением разрешений, проверяет операции в единой точке вызо
+- [[repo-111-h5i]] — h5i-dev/h5i: Rust CLI создаёт Git-addressed environments для агентов, выбирает наиболее сильный доступный isolation tier, фиксирует p
+- [[repo-112-onecli]] — onecli/onecli: OneCLI ставит HTTP(S)-шлюз между агентом и внешними API. Агент использует placeholder и собственный access token, а шлюз
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства

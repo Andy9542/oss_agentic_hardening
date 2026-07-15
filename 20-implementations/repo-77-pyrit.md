@@ -4,7 +4,7 @@ catalog-id: 77
 method-id: 44
 also-method-ids:
   - 1
-repo: https://github.com/Azure/PyRIT
+repo: https://github.com/microsoft/PyRIT
 language: Python
 license: ""
 verdict: prod
@@ -20,7 +20,7 @@ clusters:
 
 ## Репозиторий
 
-[Azure/PyRIT](https://github.com/Azure/PyRIT)
+[Azure/PyRIT](https://github.com/microsoft/PyRIT)
 
 ## Слой и тип
 
@@ -52,6 +52,10 @@ clusters:
 ## Вердикт
 
 **готово к продакшену** — каталожная оценка по зрелости репозитория в экосистеме.
+
+## Детальные разборы
+
+- [[pyrit-attack-scorer-pipeline]]
 
 ## Реализуемые способы
 

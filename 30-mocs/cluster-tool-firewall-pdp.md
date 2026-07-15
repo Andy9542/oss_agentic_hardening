@@ -21,7 +21,7 @@ tags:
 - способ №39 (39-неизменяемый-журнал-с-цепочкой-хешей-и-подписями)
 - способ №37 (37-выявление-поведенческих-отклонений)
 
-## Варианты реализации (8)
+## Варианты реализации (10)
 
 - [[repo-01-agent-governance-toolkit]] — microsoft/agent-governance-toolkit: Agent OS: ядро политик, идентичность агента, песочницы, адаптеры для LangGraph/CrewAI/ADK
 - [[repo-03-aegis]] — Justin0504/Aegis: Шлюз с PDP: перехват вызовов, RBAC, аудит, SDK на Go/Python
@@ -33,7 +33,10 @@ tags:
 - [[repo-95-agent-bound]] — ElPaisano/agent-bound: Ограничение границ действий агента
 
 
+- [[repo-107-armorer-guard]] — ArmorerLabs/Armorer-Guard: Один локальный Rust binary нормализует текст, объединяет детерминированные правила, credential detector, TF-IDF linear c
+- [[repo-112-onecli]] — onecli/onecli: OneCLI ставит HTTP(S)-шлюз между агентом и внешними API. Агент использует placeholder и собственный access token, а шлюз
+
 ## Навигация
 
-- [[github-100-repo]] — полный каталог 100 репозиториев
+- [[github-100-repo]] — полный каталог 118 репозиториев
 - [[MOC — Кластеры репозиториев]] — все семейства
