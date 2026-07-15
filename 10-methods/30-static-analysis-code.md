@@ -16,9 +16,6 @@ covers:
   - ASI05
   - LLM05
   - ASI04
-complements:
-  - 26-tool-poisoning-scan
-  - 28-toxic-flow-analysis
 ---
 
 # Static analysis кода

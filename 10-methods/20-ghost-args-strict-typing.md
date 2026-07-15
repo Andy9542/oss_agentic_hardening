@@ -15,11 +15,6 @@ sources: []
 covers:
   - LLM05
   - ASI02
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
-requires:
-  - 10-json-schema-constrained
 ---
 
 # Ghost args / strict typing

@@ -4,20 +4,388 @@
     "type": "split",
     "children": [
       {
-        "id": "a3713a7f64cc95f9",
+        "id": "6687e1777d67d9ad",
         "type": "tabs",
+        "dimension": 29.783393501805055,
         "children": [
           {
-            "id": "305df7714b993c0c",
+            "id": "0cc715f723d453fe",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "2.5. Соотнесение двух перечней",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.5. Соотнесение двух перечней.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.5. Соотнесение двух перечней\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2.4. Классы угроз OWASP LLM Top-10 (2025)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.4. Классы угроз OWASP LLM Top-10 (2025).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.4. Классы угроз OWASP LLM Top-10 (2025)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "2. Агентные системы на основе больших языковых моделей и модель угроз",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2. Агентные системы на основе больших языковых моделей и модель угроз.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2. Агентные системы на основе больших языковых моделей и модель угроз\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.6. Структура статьи",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.6. Структура статьи.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.6. Структура статьи\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.2. Постановка проблемы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.2. Постановка проблемы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.2. Постановка проблемы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Статья/2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)"
             }
           }
         ]
+      },
+      {
+        "id": "de1475b1eaf3873f",
+        "type": "tabs",
+        "dimension": 70.21660649819495,
+        "children": [
+          {
+            "id": "db12d2695fbbcfb1",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Статья/2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)"
+            }
+          },
+          {
+            "id": "fc746ba4f47fbdde",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "repo-01-agent-governance-toolkit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-01-agent-governance-toolkit.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-01-agent-governance-toolkit\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":54.910481770833336}"
+                },
+                {
+                  "title": "agt-agent-compliance",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/detail/agt-agent-compliance.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"agt-agent-compliance\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":10,\"ch\":0},\"to\":{\"line\":10,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "repo-01-agent-governance-toolkit",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-01-agent-governance-toolkit.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-01-agent-governance-toolkit\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":31,\"ch\":0},\"to\":{\"line\":31,\"ch\":0}},\"scroll\":37.536458333333336}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "3.5. Показатель эшелонированности защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.5. Показатель эшелонированности защиты.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.5. Показатель эшелонированности защиты\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":60},\"to\":{\"line\":6,\"ch\":60}}}"
+                },
+                {
+                  "title": "4.3. Уровень «Действие или инструменты»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.3. Уровень «Действие или инструменты».md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.3. Уровень «Действие или инструменты»\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "4.4. Уровень «Сеть и инфраструктура»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.4. Уровень «Сеть и инфраструктура».md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.4. Уровень «Сеть и инфраструктура»\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "8.2. Направления дальнейших исследований",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/8.2. Направления дальнейших исследований.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"8.2. Направления дальнейших исследований\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "8.1. Ограничения работы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/8.1. Ограничения работы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"8.1. Ограничения работы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "8. Ограничения работы и направления дальнейших исследований",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/8. Ограничения работы и направления дальнейших исследований.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"8. Ограничения работы и направления дальнейших исследований\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "7.3. Очерёдность внедрения",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/7.3. Очерёдность внедрения.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"7.3. Очерёдность внедрения\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "7.2. Минимальный набор по уровням",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/7.2. Минимальный набор по уровням.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"7.2. Минимальный набор по уровням\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":6.472222222222222}"
+                },
+                {
+                  "title": "7.1. Принцип эшелонированной защиты применительно к агентной системе",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/7.1. Принцип эшелонированной защиты применительно к агентной системе.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"7.1. Принцип эшелонированной защиты применительно к агентной системе\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "6.4. Разграничение средств защиты и средств измерения",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.4. Разграничение средств защиты и средств измерения.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.4. Разграничение средств защиты и средств измерения\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "6.3. Недооценённые средства",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.3. Недооценённые средства.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.3. Недооценённые средства\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.07258064516129033}"
+                },
+                {
+                  "title": "6.2. Переоценённые средства",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.2. Переоценённые средства.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.2. Переоценённые средства\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "6.1. Структурные пробелы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.1. Структурные пробелы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.1. Структурные пробелы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":8.630952380952381}"
+                },
+                {
+                  "title": "6.2. Переоценённые средства",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.2. Переоценённые средства.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.2. Переоценённые средства\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "6.1. Структурные пробелы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6.1. Структурные пробелы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6.1. Структурные пробелы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "5.2. Эшелонированность защиты по классам угроз",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/5.2. Эшелонированность защиты по классам угроз.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"5.2. Эшелонированность защиты по классам угроз\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.208333333333333}"
+                },
+                {
+                  "title": "5.3. Хорошо перекрытые угрозы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/5.3. Хорошо перекрытые угрозы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"5.3. Хорошо перекрытые угрозы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "6. Пробелы в защите и типовые заблуждения",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/6. Пробелы в защите и типовые заблуждения.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"6. Пробелы в защите и типовые заблуждения\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.1. Основания классификации",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.1. Основания классификации.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.1. Основания классификации\"}",
+                  "eState": "{\"scroll\":1.592920353982301}"
+                },
+                {
+                  "title": "4. Классификация механизмов защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4. Классификация механизмов защиты.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4. Классификация механизмов защиты\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.1. Основания классификации",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.1. Основания классификации.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.1. Основания классификации\"}",
+                  "eState": "{\"scroll\":0}"
+                },
+                {
+                  "title": "4. Классификация механизмов защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4. Классификация механизмов защиты.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4. Классификация механизмов защиты\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "5. Анализ перекрытия классов угроз",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/5. Анализ перекрытия классов угроз.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"5. Анализ перекрытия классов угроз\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.7. Обобщение по характеру воздействия",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.7. Обобщение по характеру воздействия.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.7. Обобщение по характеру воздействия\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.6. Уровень «Подлинность и аудит»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.6. Уровень «Подлинность и аудит».md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.6. Уровень «Подлинность и аудит»\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.5. Уровень «Цепочка поставок и код»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.5. Уровень «Цепочка поставок и код».md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.5. Уровень «Цепочка поставок и код»\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.4. Уровень «Сеть и инфраструктура»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.4. Уровень «Сеть и инфраструктура».md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.4. Уровень «Сеть и инфраструктура»\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.3. Уровень «Действие или инструменты»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.3. Уровень «Действие или инструменты».md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.3. Уровень «Действие или инструменты»\"}",
+                  "eState": "{\"scroll\":2.03125}"
+                },
+                {
+                  "title": "4.2. Уровень «Текст или входные данные»",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.2. Уровень «Текст или входные данные».md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.2. Уровень «Текст или входные данные»\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "3.7. Протокол кодирования и воспроизводимость",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.7. Протокол кодирования и воспроизводимость.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.7. Протокол кодирования и воспроизводимость\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4. Классификация механизмов защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4. Классификация механизмов защиты.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4. Классификация механизмов защиты\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "4.1. Основания классификации",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4.1. Основания классификации.md\",\"mode\":\"preview\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4.1. Основания классификации\"}",
+                  "eState": "{\"scroll\":3.1829268292682924}"
+                },
+                {
+                  "title": "4. Классификация механизмов защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/4. Классификация механизмов защиты.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"4. Классификация механизмов защиты\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3.7. Протокол кодирования и воспроизводимость",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.7. Протокол кодирования и воспроизводимость.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.7. Протокол кодирования и воспроизводимость\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":6,\"ch\":375},\"to\":{\"line\":6,\"ch\":378}}}"
+                },
+                {
+                  "title": "3.6. Ограничения принятого подхода",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.6. Ограничения принятого подхода.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.6. Ограничения принятого подхода\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3.5. Показатель эшелонированности защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.5. Показатель эшелонированности защиты.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.5. Показатель эшелонированности защиты\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3.4. Построение карты перекрытия и шкала оценки силы средства",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.4. Построение карты перекрытия и шкала оценки силы средства.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.4. Построение карты перекрытия и шкала оценки силы средства\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3.5. Показатель эшелонированности защиты",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.5. Показатель эшелонированности защиты.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.5. Показатель эшелонированности защиты\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "3.6. Ограничения принятого подхода",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/3.6. Ограничения принятого подхода.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"3.6. Ограничения принятого подхода\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":2,\"ch\":191},\"to\":{\"line\":2,\"ch\":191}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-implementations/detail/agt-token-rate-limits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "agt-token-rate-limits"
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -33,6 +401,15 @@
           {
             "id": "22d74b35e5d863cd",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "file-explorer",
               "state": {
@@ -46,6 +423,15 @@
           {
             "id": "0964820476f95ef8",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "search",
               "state": {
@@ -63,11 +449,45 @@
           {
             "id": "62e8f704caabc148",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Закладки"
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "67e6e2d7a1f095b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dd031a5ff17bcc0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "VIEW_TYPE_LONGFORM_EXPLORER",
+              "state": {},
+              "icon": "longform",
+              "title": "Longform"
             }
           }
         ]
@@ -87,6 +507,15 @@
           {
             "id": "808e94b35a45b738",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "backlink",
               "state": {
@@ -106,6 +535,15 @@
           {
             "id": "26211f2dc4eeec6d",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outgoing-link",
               "state": {
@@ -120,6 +558,15 @@
           {
             "id": "a8abb522a914625b",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "tag",
               "state": {
@@ -135,6 +582,15 @@
           {
             "id": "2f04c7281f009835",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "all-properties",
               "state": {
@@ -149,6 +605,15 @@
           {
             "id": "d92bc30f952b1043",
             "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
             "state": {
               "type": "outline",
               "state": {
@@ -179,42 +644,45 @@
       "bases:Create new base": false
     }
   },
-  "active": "305df7714b993c0c",
+  "active": "fc746ba4f47fbdde",
   "lastOpenFiles": [
-    "10-methods/32-aibom-inventory.md",
-    "research/composer/audit-links-even-batch.md",
-    "30-mocs/demo-dlp-chain.canvas",
-    "30-mocs/methods-by-layer.base",
-    "30-mocs/MOC — Матрица угроз.md",
-    "30-mocs/MOC — Выводы.md",
-    "10-methods/19-injection-rules-args.md",
-    "10-methods/05-pii-masking-detection.md",
-    "30-mocs/Правила связей.md",
-    "10-methods/37-behavioral-anomaly.md",
-    "10-methods/11-rate-cost-token-limits.md",
-    "10-methods/23-egress-proxy-ssrf.md",
-    "10-methods/01-ml-injection-classifier.md",
-    "10-methods/15-flow-rules.md",
-    "40-sources/source-mcp-tool-poisoning-research.md",
-    "_matrix_table.txt",
-    "_gen_matrix.py",
-    "40-sources/source-garak-encoding-probes.md",
-    "05-risks/LLM03-supply-chain.md",
-    "10-methods/03-heuristics-regex-injection.md",
-    "40-sources/source-owasp-llm-top10.md",
-    "05-risks/LLM01-prompt-injection.md",
-    "05-risks/LLM10-unbounded-consumption.md",
-    "05-risks/LLM09-misinformation.md",
-    "05-risks/LLM08-vector-embedding-weaknesses.md",
-    "05-risks/LLM07-system-prompt-leakage.md",
-    "05-risks/LLM06-excessive-agency.md",
-    "05-risks/LLM05-improper-output-handling.md",
-    "05-risks",
-    "_fix_fm.py",
-    "_apply_covers.py",
-    "_finalize_methods.py",
-    "_debug.py",
-    "_restore_yaml.py",
-    "_fix_links.py"
+    "03-incidents/incident-ultralytics-pypi-compromise.md",
+    "03-incidents/incident-slack-ai-indirect-prompt-injection.md",
+    "03-incidents/incident-servicenow-second-order-prompt-injection.md",
+    "03-incidents/incident-servicenow-bodysnatcher-cve-2025-12420.md",
+    "03-incidents/incident-replit-production-database-deletion.md",
+    "03-incidents/incident-pytorch-torchtriton-supply-chain.md",
+    "03-incidents/incident-pravda-network-llm-grooming.md",
+    "03-incidents/incident-openai-ddos-outage-2023.md",
+    "03-incidents/incident-nyc-mycity-illegal-advice.md",
+    "03-incidents/incident-moltbook-agent-database-exposure.md",
+    "03-incidents/incident-microsoft-tay-poisoning.md",
+    "03-incidents/incident-mcp-remote-rce-cve-2025-6514.md",
+    "03-incidents/incident-mcp-inspector-rce-cve-2025-49596.md",
+    "03-incidents/incident-mata-v-avianca-fake-citations.md",
+    "03-incidents/incident-jadepuffer-agentic-ransomware.md",
+    "03-incidents/incident-huggingface-fake-openai-infostealer.md",
+    "03-incidents/incident-grok-unauthorized-system-prompt-change.md",
+    "03-incidents/incident-google-ai-overviews-erroneous-advice.md",
+    "03-incidents/incident-gemini-image-historical-inaccuracies.md",
+    "03-incidents/incident-ftc-donotpay-ai-lawyer.md",
+    "03-incidents/incident-echoleak-m365-copilot.md",
+    "03-incidents/incident-dpd-chatbot-prompt-manipulation.md",
+    "03-incidents/incident-deepseek-clickhouse-exposure.md",
+    "03-incidents/incident-clawhub-malicious-openclaw-skills.md",
+    "03-incidents/incident-chatgpt-redis-cross-user-exposure.md",
+    "03-incidents/incident-chatgpt-memory-prompt-injection.md",
+    "03-incidents",
+    "ris4_heatmap.png",
+    "10-methods/44-red-team-regression.md.operon-tmp-c68874822296",
+    "__pycache__/_coverage_analysis.cpython-311.pyc",
+    "Статья/5.4. Слабо перекрытые угрозы.md.operon-tmp-a8e9e2575e44",
+    "Статья/6.1. Структурные пробелы.md.operon-tmp-2c6d571a6d22",
+    "Статья/7.2. Минимальный набор по уровням.md.operon-tmp-5f8e7563406b",
+    "Статья/7.2. Минимальный набор по уровням.md.operon-tmp-73f59adca5f1",
+    "Статья/9. Заключение.md.operon-tmp-908327e886e4",
+    "Статья/5.2. Эшелонированность защиты по классам угроз.md.operon-tmp-d30686cb19cd",
+    "__pycache__/_gen_figures.cpython-311.pyc",
+    "30-mocs/demo-dlp-chain.canvas"
   ]
 }

@@ -15,10 +15,6 @@ sources: []
 covers:
   - ASI04
   - ASI10
-complements:
-  - 26-tool-poisoning-scan
-requires:
-  - 40-opentelemetry-siem
 ---
 
 # Skill attribution

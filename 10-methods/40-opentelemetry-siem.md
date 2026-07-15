@@ -16,9 +16,6 @@ sources:
 covers:
   - ASI08
   - ASI10
-complements:
-  - 02-cot-reasoning-audit
-  - 38-skill-attribution
 ---
 
 # OpenTelemetry / SIEM

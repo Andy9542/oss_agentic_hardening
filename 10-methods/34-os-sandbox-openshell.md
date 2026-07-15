@@ -16,9 +16,6 @@ covers:
   - ASI05
   - ASI02
   - ASI08
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
 ---
 
 # OS-level sandbox (OpenShell)

@@ -15,10 +15,6 @@ sources: []
 covers:
   - ASI03
   - ASI07
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
-  - 40-opentelemetry-siem
 ---
 
 # MCP/LLM gateway с RBAC

@@ -16,8 +16,6 @@ sources:
 covers:
   - ASI08
   - ASI10
-complements:
-  - 40-opentelemetry-siem
 ---
 
 # Kill switch / circuit breaker

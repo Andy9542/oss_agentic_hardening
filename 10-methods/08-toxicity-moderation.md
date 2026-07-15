@@ -14,10 +14,6 @@ tags:
 sources: []
 covers:
   - LLM05
-complements:
-  - 04-unicode-normalization
-not-replaces:
-  - 16-ifc-capability-taint
 ---
 
 # Фильтры токсичности / модерация

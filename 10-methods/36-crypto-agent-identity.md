@@ -17,8 +17,6 @@ covers:
   - ASI07
   - ASI03
   - ASI10
-complements:
-  - 24-mcp-gateway-rbac
 ---
 
 # Crypto agent identity + A2A trust

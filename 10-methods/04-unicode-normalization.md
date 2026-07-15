@@ -14,8 +14,6 @@ tags:
 sources: []
 covers:
   - LLM01
-complements:
-  - 08-toxicity-moderation
 ---
 
 # Нормализация Unicode

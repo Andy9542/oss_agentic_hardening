@@ -15,13 +15,6 @@ sources: []
 covers:
   - ASI03
   - ASI02
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
-requires:
-  - 14-default-deny-allowlists
-not-replaces:
-  - 16-ifc-capability-taint
 ---
 
 # ReBAC (SpiceDB)

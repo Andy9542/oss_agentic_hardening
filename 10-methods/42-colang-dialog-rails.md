@@ -15,9 +15,6 @@ sources: []
 covers:
   - ASI09
   - ASI01
-complements:
-  - 08-toxicity-moderation
-  - 12-tool-policies-yaml-rego
 ---
 
 # Rails (Colang)

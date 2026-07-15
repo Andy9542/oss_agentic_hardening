@@ -15,10 +15,6 @@ sources:
   - source-bumblebee
 covers:
   - ASI04
-complements:
-  - 26-tool-poisoning-scan
-  - 28-toxic-flow-analysis
-  - 40-opentelemetry-siem
 ---
 
 # AIBOM / inventory

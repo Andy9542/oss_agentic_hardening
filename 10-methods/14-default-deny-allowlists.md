@@ -16,9 +16,6 @@ covers:
   - ASI02
   - ASI03
   - LLM06
-complements:
-  - 12-tool-policies-yaml-rego
-  - 16-ifc-capability-taint
 ---
 
 # Default-deny + allowlists
