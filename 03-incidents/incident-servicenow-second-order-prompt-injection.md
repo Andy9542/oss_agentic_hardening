@@ -11,7 +11,6 @@ risk-ids:
   - ASI07
   - ASI10
   - LLM01
-  - LLM02
   - LLM06
 tags:
   - agent-security
@@ -38,7 +37,6 @@ AppOmni показала, как low-privileged пользователь пом�
 - [[ASI07-insecure-inter-agent-communication]] — доверие между discoverable agents позволило передать вредоносную цель без проверки provenance.
 - [[ASI10-rogue-agents]] — комбинация агентов автономно выполняла действия, не соответствующие намерению оператора.
 - [[LLM01-prompt-injection]] — первичный механизм — indirect/second-order prompt injection из поля записи.
-- [[LLM02-sensitive-information-disclosure]] — PoC раскрывал содержимое защищённой записи и допускал email-exfiltration.
 - [[LLM06-excessive-agency]] — автономное исполнение privileged tools превращало prompt manipulation в изменение данных и ролей.
 
 ## Последствия и реакция
