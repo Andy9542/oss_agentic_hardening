@@ -8,7 +8,6 @@ risk-ids:
   - ASI04
   - ASI05
   - ASI10
-  - LLM02
   - LLM03
   - LLM06
 tags:
@@ -33,7 +32,6 @@ tags:
 - [[ASI04-agentic-supply-chain]] — marketplace расширений стал каналом доставки недоверенных инструкций и кода агенту.
 - [[ASI05-unexpected-code-execution]] — skills добивались исполнения shell-команд и установки infostealer на host.
 - [[ASI10-rogue-agents]] — скомпрометированный skill мог заставить локального агента действовать против владельца.
-- [[LLM02-sensitive-information-disclosure]] — payloads нацеливались на credentials, wallets и локальные секреты.
 - [[LLM03-supply-chain]] — доверие к community skill и его рейтингу заменяло проверку provenance.
 - [[LLM06-excessive-agency]] — широкий доступ OpenClaw к файлам, shell и сети увеличивал blast radius установки.
 
