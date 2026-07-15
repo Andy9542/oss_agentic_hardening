@@ -11,7 +11,8 @@ status: reviewed
 tags:
   - agent-security
   - even-batch
-sources: []
+sources:
+  - source-bumblebee
 covers:
   - ASI04
 complements:

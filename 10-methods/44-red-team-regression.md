@@ -11,7 +11,9 @@ status: reviewed
 tags:
   - agent-security
   - even-batch
-sources: []
+sources:
+  - source-t3mp3st
+  - source-strix
 covers: []
 ---
 

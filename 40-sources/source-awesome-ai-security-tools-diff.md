@@ -1,0 +1,210 @@
+---
+type: source
+tags:
+  - catalog
+  - diff
+  - savedtg
+---
+
+# Diff: awesome-ai-security-tools vs github-100-repo
+
+Срез на 2026-07-15.
+
+- Уникальных GitHub-репозиториев в `awesome-ai-security-tools`: **239**
+- Уже представлены в текущем каталоге: **55**
+- Отсутствуют: **184**
+
+Сравнение выполнено без учёта регистра владельца/репозитория и суффикса `.git`. Включение в этот список означает только отсутствие URL в каталоге, а не решение о соответствии scope.
+
+## Отсутствующие URL
+
+- https://github.com/0x4m4/hexstrike-ai
+- https://github.com/0xSteph/pentest-ai
+- https://github.com/0xSteph/pentest-ai-agents
+- https://github.com/7WaySecurity/ai_osint
+- https://github.com/aielte-research/HackSynth
+- https://github.com/AISecurityLab/hackagent
+- https://github.com/albertan017/LLM4Decompile
+- https://github.com/aliasrobotics/cai
+- https://github.com/AmanPriyanshu/Awesome-AI-For-Security
+- https://github.com/amazon-science/Cyber-Zero
+- https://github.com/AnandBinuArjun/threat-intelligence-cti-analysis
+- https://github.com/andyzorigin/cybench
+- https://github.com/apiiro/malicious-code-ruleset
+- https://github.com/aress31/burpgpt
+- https://github.com/Armur-Ai/Pentest-Swarm-AI
+- https://github.com/ASCIT31/Dark-Moon
+- https://github.com/Ashfaaq98/awesome-genai-cyberhub
+- https://github.com/AttackIQ/SigmAIQ
+- https://github.com/awsm-research/Awesome-AI4DevSecOps
+- https://github.com/Azure/counterfit
+- https://github.com/berylliumsec/nebula
+- https://github.com/bethgelab/foolbox
+- https://github.com/bethington/ghidra-mcp
+- https://github.com/BishopFox/eyeballer
+- https://github.com/bornpresident/Volatility-MCP-Server
+- https://github.com/bountybench/bountybench
+- https://github.com/brannondorsey/PassGAN
+- https://github.com/bromoket/x64dbg_mcp
+- https://github.com/BurtTheCoder/mcp-dnstwist
+- https://github.com/cchio/deep-pwning
+- https://github.com/cckuailong/awesome-gpt-security
+- https://github.com/centerforaisafety/HarmBench
+- https://github.com/ChatAFLndss/ChatAFL
+- https://github.com/cisco-ai-defense/model-provenance-kit
+- https://github.com/cisco-ai-defense/pickle-fuzzer
+- https://github.com/Clouditera/SecGPT
+- https://github.com/code-philia/PhishLLM
+- https://github.com/code-philia/PhishVLM
+- https://github.com/CompassSecurity/xvulnhuntr
+- https://github.com/corca-ai/awesome-llm-security
+- https://github.com/cramppet/regulator
+- https://github.com/cupslab/neural_network_cracking
+- https://github.com/cyberkaida/reverse-engineering-assistant
+- https://github.com/cyberok-org/nuclei-autotriage
+- https://github.com/Darwinkel/bachelor-thesis-information-science
+- https://github.com/DataDog/guarddog
+- https://github.com/DataDog/malicious-software-packages-dataset
+- https://github.com/deadbits/trs
+- https://github.com/dhammon/ai-goat
+- https://github.com/EasyJailbreak/EasyJailbreak
+- https://github.com/elder-plinius/T3MP3ST
+- https://github.com/elementalsouls/Claude-BugHunter
+- https://github.com/ElNiak/awesome-ai-cybersecurity
+- https://github.com/endgameinc/gym-malware
+- https://github.com/estebanpdl/osintgpt
+- https://github.com/exploitbench/exploitbench
+- https://github.com/False-Positive-Community/open-malicious-code-benchmark
+- https://github.com/format81/TI-Mindmap-GPT
+- https://github.com/fr0gger/IATelligence
+- https://github.com/fr0gger/MCP_Security
+- https://github.com/fraim-dev/fraim
+- https://github.com/FunnyWolf/agentic-soc-platform
+- https://github.com/fuzz4all/fuzz4all
+- https://github.com/gadievron/honeyslop
+- https://github.com/gatewayd-io/DeepSQLi
+- https://github.com/GH05TCREW/pentestagent
+- https://github.com/gigz/gpt-osint
+- https://github.com/Giskard-AI/giskard-oss
+- https://github.com/GitHubSecurityLab/seclab-taskflow-agent
+- https://github.com/gmh5225/awesome-ai-security
+- https://github.com/google/oss-fuzz-gen
+- https://github.com/GraySwanAI/nanoGCG
+- https://github.com/greshake/llm-security
+- https://github.com/GreyDGL/PentestGPT
+- https://github.com/gyoisamurai/GyoiThon
+- https://github.com/hadriansecurity/subwiz
+- https://github.com/hslatman/awesome-threat-intelligence
+- https://github.com/iknowjason/llm-security-scanner
+- https://github.com/InQuest/ThreatIngestor
+- https://github.com/ipa-lab/hackingBuddyGPT
+- https://github.com/iris-sast/iris
+- https://github.com/ise-uiuc/TitanFuzz
+- https://github.com/jan-hendrik-lang/MemoryInvestigator
+- https://github.com/javirandor/passgpt
+- https://github.com/jivoi/awesome-ml-for-cybersecurity
+- https://github.com/jthack/ffufai
+- https://github.com/JusticeRage/Gepetto
+- https://github.com/KeygraphHQ/shannon
+- https://github.com/KHenryAegis/VulnBot
+- https://github.com/kxcode/vulnhuntr-mod
+- https://github.com/Lab700xOrg/aisbom
+- https://github.com/lakeraai/pint-benchmark
+- https://github.com/lasso-security/mcp-gateway
+- https://github.com/LaurieWired/GhidraMCP
+- https://github.com/Libr-AI/do-not-answer
+- https://github.com/lindsey98/PhishIntention
+- https://github.com/LLAMATOR-Core/llamator
+- https://github.com/llm-attacks/llm-attacks
+- https://github.com/llnl/OGhidra
+- https://github.com/lr-m/GhidrOllama
+- https://github.com/lxyeternal/pypi_malregistry
+- https://github.com/lyvd/bandit4mal
+- https://github.com/M507/ai-soc-agent
+- https://github.com/mariocandela/beelzebub
+- https://github.com/matty69v/Bug-Bounty-Agents
+- https://github.com/MCP-Defender/MCP-Defender
+- https://github.com/MCPPhalanx/binaryninja-mcp
+- https://github.com/microsoft/AI-Red-Teaming-Playground-Labs
+- https://github.com/microsoft/OSSGadget
+- https://github.com/microsoft/PyRIT
+- https://github.com/mmaitre314/picklescan
+- https://github.com/moyix/gpt-wpre
+- https://github.com/mrexodia/ida-pro-mcp
+- https://github.com/mrwadams/attackgen
+- https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+- https://github.com/Ninadjos/SOCGPT-AI-Powered-SOC-Assistant
+- https://github.com/NoDataFound/hackGPT
+- https://github.com/ntoskernel/deepsecrets
+- https://github.com/NVISOsecurity/cyber-security-llm-agents
+- https://github.com/NYU-LLM-CTF/CTFTiny
+- https://github.com/NYU-LLM-CTF/NYU_CTF_Bench
+- https://github.com/ossf/malicious-packages
+- https://github.com/ossf/package-analysis
+- https://github.com/ossf/package-feeds
+- https://github.com/ossillate-inc/packj
+- https://github.com/ottosulin/awesome-ai-security
+- https://github.com/OWNER/SIBLING
+- https://github.com/PalisadeResearch/llm-honeypot
+- https://github.com/parameterlab/trap
+- https://github.com/pasquini-dario/LLMmap
+- https://github.com/PortSwigger/ai-prompt-fuzzer
+- https://github.com/PortSwigger/mcp-server
+- https://github.com/pranavibunny/ai-soc-triage-assistant
+- https://github.com/princeton-nlp/intercode
+- https://github.com/PromptFuzz/PromptFuzz
+- https://github.com/protectai/ai-exploits
+- https://github.com/protectai/vulnhuntr
+- https://github.com/psiinon/open-source-llm-scanners
+- https://github.com/Puliczek/awesome-mcp-security
+- https://github.com/QData/TextAttack
+- https://github.com/raphabot/awesome-cybersecurity-agentic-ai
+- https://github.com/referefref/aiocrioc
+- https://github.com/Repello-AI/whistleblower
+- https://github.com/ReversecLabs/damn-vulnerable-llm-agent
+- https://github.com/RHEcosystemAppEng/sast-ai-workflow
+- https://github.com/S-Abdelnabi/VisualPhishNet
+- https://github.com/sherdencooper/GPTFuzz
+- https://github.com/shuvonsec/claude-bug-bounty
+- https://github.com/slowmist/MCP-Security-Checklist
+- https://github.com/soctalk/soctalk
+- https://github.com/sophos/yaraml_rules
+- https://github.com/splunk/DECEIVE
+- https://github.com/sshh12/llm_osint
+- https://github.com/stacklok/toolhive
+- https://github.com/stratosphereips/awesome-ml-privacy-attacks
+- https://github.com/stratosphereips/shelLM
+- https://github.com/stratosphereips/VelLMes-AI-Honeypot
+- https://github.com/SunWeb3Sec/llm-sast-scanner
+- https://github.com/superradcompany/microsandbox
+- https://github.com/SWE-agent/SWE-agent
+- https://github.com/symgraph/GhidrAssistMCP
+- https://github.com/TalEliyahu/Awesome-AI-Security
+- https://github.com/tenable/awesome-llm-cybersecurity-tools
+- https://github.com/tenable/Burp-extension-for-GPT
+- https://github.com/tenable/EscalateGPT
+- https://github.com/tenable/ghidra_tools
+- https://github.com/Tencent/AI-Infra-Guard
+- https://github.com/tmylla/Awesome-LLM4Cybersecurity
+- https://github.com/trailofbits/awesome-ml-security
+- https://github.com/trailofbits/fickling
+- https://github.com/trailofbits/mcp-context-protector
+- https://github.com/trailofbits/PrivacyRaven
+- https://github.com/TrustAIRLab/JailbreakLLMs
+- https://github.com/Trusted-AI/adversarial-robustness-toolbox
+- https://github.com/usestrix/strix
+- https://github.com/utkusen/sast-skills
+- https://github.com/Vasco0x4/AIDA
+- https://github.com/vercel-labs/deepsec
+- https://github.com/Vigil-SOC/vigil
+- https://github.com/vxcontrol/pentagi
+- https://github.com/weareaisle/nano-analyzer
+- https://github.com/weirdmachine64/GhidraGPT
+- https://github.com/YusukeJustinNakajima/SigmaOptimizer
+- https://github.com/zmre/awesome-security-for-ai
+
+## Связи
+
+- [[source-awesome-ai-security-tools]]
+- [[sources-savedtg]]
+- [[github-100-repo]]
