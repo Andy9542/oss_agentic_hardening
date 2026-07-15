@@ -7,7 +7,6 @@ affected: "Hugging Face repository Open-OSS/privacy-filter"
 risk-ids:
   - ASI04
   - ASI05
-  - LLM02
   - LLM03
 tags:
   - agent-security
@@ -30,7 +29,6 @@ tags:
 
 - [[ASI04-agentic-supply-chain]] — злоумышленник использовал доверие к реестру AI-моделей и похожее имя издателя.
 - [[ASI05-unexpected-code-execution]] — loader запускал PowerShell/batch-цепочку и вредоносный executable на host.
-- [[LLM02-sensitive-information-disclosure]] — целью infostealer были credentials, ключи, кошельки и чувствительные файлы.
 - [[LLM03-supply-chain]] — model hub и model card выступили каналом supply-chain подмены.
 
 ## Последствия и реакция
