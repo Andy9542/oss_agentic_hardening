@@ -4,75 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "6687e1777d67d9ad",
-        "type": "tabs",
-        "dimension": 29.783393501805055,
-        "children": [
-          {
-            "id": "0cc715f723d453fe",
-            "type": "leaf",
-            "pane-relief:history-v1": {
-              "pos": 0,
-              "stack": [
-                {
-                  "state": "{}",
-                  "eState": "{}"
-                },
-                {
-                  "title": "2.5. Соотнесение двух перечней",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.5. Соотнесение двух перечней.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.5. Соотнесение двух перечней\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2.4. Классы угроз OWASP LLM Top-10 (2025)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.4. Классы угроз OWASP LLM Top-10 (2025).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.4. Классы угроз OWASP LLM Top-10 (2025)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026).md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "2. Агентные системы на основе больших языковых моделей и модель угроз",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/2. Агентные системы на основе больших языковых моделей и модель угроз.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"2. Агентные системы на основе больших языковых моделей и модель угроз\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "1.6. Структура статьи",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.6. Структура статьи.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.6. Структура статьи\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "1.2. Постановка проблемы",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.2. Постановка проблемы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.2. Постановка проблемы\"}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                }
-              ]
-            },
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Статья/2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2.3. Классы угроз OWASP Agentic Security Initiative Top-10 (2026)"
-            }
-          }
-        ]
-      },
-      {
         "id": "de1475b1eaf3873f",
         "type": "tabs",
-        "dimension": 70.21660649819495,
         "children": [
           {
             "id": "db12d2695fbbcfb1",
@@ -383,9 +316,251 @@
               "icon": "lucide-file",
               "title": "agt-token-rate-limits"
             }
+          },
+          {
+            "id": "ca86a01c67d3e0cd",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "1.3. Цель и задачи работы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.3. Цель и задачи работы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.3. Цель и задачи работы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0.35294117647058826}"
+                },
+                {
+                  "title": "1.2. Постановка проблемы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.2. Постановка проблемы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.2. Постановка проблемы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.1. Актуальность",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.1. Актуальность.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.1. Актуальность\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "1.2. Постановка проблемы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.2. Постановка проблемы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.2. Постановка проблемы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.1. Актуальность",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.1. Актуальность.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.1. Актуальность\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.3. Цель и задачи работы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.3. Цель и задачи работы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.3. Цель и задачи работы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":5,\"ch\":0},\"to\":{\"line\":5,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "1.2. Постановка проблемы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.2. Постановка проблемы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.2. Постановка проблемы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.1. Актуальность",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.1. Актуальность.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.1. Актуальность\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "ris4_heatmap",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris4_heatmap.png\"},\"icon\":\"lucide-image\",\"title\":\"ris4_heatmap\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris5_echelon",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris5_echelon.png\"},\"icon\":\"lucide-image\",\"title\":\"ris5_echelon\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris6_stack",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris6_stack.png\"},\"icon\":\"lucide-image\",\"title\":\"ris6_stack\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris5_echelon",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris5_echelon.png\"},\"icon\":\"lucide-image\",\"title\":\"ris5_echelon\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris4_heatmap",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris4_heatmap.png\"},\"icon\":\"lucide-image\",\"title\":\"ris4_heatmap\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris3_landscape",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris3_landscape.png\"},\"icon\":\"lucide-image\",\"title\":\"ris3_landscape\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "ris1_surface",
+                  "icon": "lucide-image",
+                  "state": "{\"type\":\"image\",\"state\":{\"file\":\"Статья/img/ris1_surface.png\"},\"icon\":\"lucide-image\",\"title\":\"ris1_surface\"}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "1.5. Границы работы",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.5. Границы работы.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.5. Границы работы\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "1.1. Актуальность",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Статья/1.1. Актуальность.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"1.1. Актуальность\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Статья/6. Пробелы в защите и типовые заблуждения.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6. Пробелы в защите и типовые заблуждения"
+            }
+          },
+          {
+            "id": "b6c131b7bad9f211",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "MOC — Матрица угроз",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-mocs/MOC — Матрица угроз.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"MOC — Матрица угроз\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":58.87494466578132}"
+                },
+                {
+                  "title": "repo-08-agent-airlock",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-08-agent-airlock.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-08-agent-airlock\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":26,\"ch\":41},\"to\":{\"line\":26,\"ch\":41}},\"scroll\":5.859375}"
+                },
+                {
+                  "title": "repo-12-agentgateway",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-12-agentgateway.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-12-agentgateway\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":17,\"ch\":0},\"to\":{\"line\":17,\"ch\":0}},\"scroll\":0}"
+                },
+                {
+                  "title": "MOC — Матрица угроз",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"30-mocs/MOC — Матрица угроз.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"MOC — Матрица угроз\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":63.86950354609929}"
+                },
+                {
+                  "title": "Graph view",
+                  "icon": "lucide-git-fork",
+                  "state": "{\"type\":\"graph\",\"state\":{},\"icon\":\"lucide-git-fork\",\"title\":\"Graph view\"}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-methods/01-классификация-инъекций-машинным-обучением.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01-классификация-инъекций-машинным-обучением"
+            }
+          },
+          {
+            "id": "0423226597a845e0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "repo-40-llm-guard",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-40-llm-guard.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-40-llm-guard\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":68,\"ch\":0},\"to\":{\"line\":68,\"ch\":0}},\"scroll\":47.9765625}"
+                },
+                {
+                  "title": "repo-03-aegis",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-03-aegis.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-03-aegis\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":25,\"ch\":0},\"to\":{\"line\":25,\"ch\":0}},\"scroll\":67.37440758293839}"
+                },
+                {
+                  "title": "repo-40-llm-guard",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"20-implementations/repo-40-llm-guard.md\",\"mode\":\"source\",\"source\":false},\"icon\":\"lucide-file\",\"title\":\"repo-40-llm-guard\"}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":45,\"ch\":0},\"to\":{\"line\":45,\"ch\":0}},\"scroll\":0}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "20-implementations/detail/llm-guard-prompt-injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "llm-guard-prompt-injection"
+            }
+          },
+          {
+            "id": "ddc151c29f997618",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30-mocs/Сравнение — способ 1 ML-классификаторы.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Сравнение — способ 1 ML-классификаторы"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -397,6 +572,7 @@
       {
         "id": "001402393b66630f",
         "type": "tabs",
+        "dimension": 61.022364217252395,
         "children": [
           {
             "id": "22d74b35e5d863cd",
@@ -435,7 +611,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "правила ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -443,7 +619,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -470,6 +646,7 @@
       {
         "id": "67e6e2d7a1f095b3",
         "type": "tabs",
+        "dimension": 38.977635782747605,
         "children": [
           {
             "id": "4dd031a5ff17bcc0",
@@ -644,8 +821,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "fc746ba4f47fbdde",
+  "active": "ddc151c29f997618",
   "lastOpenFiles": [
+    "20-implementations/detail/llm-guard-prompt-injection.md",
+    "30-mocs/Сравнение — способ 1 ML-классификаторы.md",
+    "20-implementations/repo-40-llm-guard.md",
+    "10-methods/01-классификация-инъекций-машинным-обучением.md",
+    "20-implementations/repo-03-aegis.md",
+    "30-mocs/MOC — Матрица угроз.md",
+    "20-implementations/repo-08-agent-airlock.md",
+    "20-implementations/repo-12-agentgateway.md",
+    "Статья/6. Пробелы в защите и типовые заблуждения.md",
+    "Статья/1.3. Цель и задачи работы.md",
+    "Статья/img/ris2_method.png",
+    "Статья/1.2. Постановка проблемы.md",
+    "Статья/1.1. Актуальность.md",
+    "Статья/img/ris4_heatmap.png",
+    "Статья/img/ris5_echelon.png",
+    "Статья/img/ris6_stack.png",
+    "Статья/img/ris3_landscape.png",
+    "Статья/img/ris1_surface.png",
+    "Статья/1.5. Границы работы.md",
+    "20-implementations/detail/agt-token-rate-limits.md",
     "__pycache__/_gen_figures.cpython-311.pyc",
     "__pycache__/_coverage_analysis.cpython-311.pyc",
     "90-templates/TPL-repo-catalog.md",
@@ -660,19 +857,6 @@
     "20-implementations/repo-110-piarena.md",
     "20-implementations/repo-109-nvidia-skillspector.md",
     "20-implementations/repo-108-parallax.md",
-    "20-implementations/repo-107-armorer-guard.md",
-    "20-implementations/repo-106-dvalincode.md",
-    "20-implementations/repo-105-skilltotal.md",
-    "20-implementations/detail/zerotrust-agents-policy-dsl.md",
-    "20-implementations/detail/vigil-yara-vectordb.md",
-    "20-implementations/detail/tldrsec-pi-defenses-catalog.md",
-    "20-implementations/detail/spikee-pi-kit.md",
-    "20-implementations/detail/snyk-agent-scan-discovery.md",
-    "20-implementations/detail/skilltotal-taint-correlation.md",
-    "20-implementations/detail/skilltotal-baseline-guard.md",
-    "20-implementations/detail/skillspector-taint-analysis.md",
-    "20-implementations/detail/skillspector-mcp-rug-pull.md",
-    "20-implementations/detail/skillguard-regex-rules.md",
     "03-incidents",
     "ris4_heatmap.png",
     "10-methods/44-red-team-regression.md.operon-tmp-c68874822296",

@@ -100,9 +100,26 @@ PromptInjection(threshold=0.92, match_type=MatchType.FULL, use_onnx=False)
 - Не заменяет политики на tools и egress — только текстовый pre-filter.
 - Gated `V2_SMALL_MODEL` требует approval/token у Protect AI.
 
+## Метрики качества модели
+
+В **репозитории llm-guard** опубликованы в основном **latency/QPS**-бенчмарки (`docs/input_scanners/prompt_injection.md`); цифр Acc/P/R/F1 там нет (модель помечена как «still testing»).
+
+Метрики классификации — на карточке Hugging Face [`protectai/deberta-v3-base-prompt-injection-v2`](https://huggingface.co/protectai/deberta-v3-base-prompt-injection-v2) (base: DeBERTa-v3-base, ~86M backbone + embeddings ≈ 0.2B params; English-only prompt injection, не jailbreak):
+
+| Набор | Accuracy | Precision | Recall | F1 |
+|-------|----------|-----------|--------|-----|
+| Eval при обучении | 99.93% | 99.92% | 99.94% | 99.93% |
+| Post-training, 20 000 prompts из «untrained» наборов | 95.25% | 91.59% | 99.74% | 95.49% |
+
+Для предыдущей версии (v1) на том же post-training: Acc 94.8%, P 90.9%, R 99.6%, F1 95%.
+
+**Данные:** сборка из публичных датасетов (в т.ч. `xstest-v2-copy`, `open-instruct`, `Salad-Data`, `jailbreak-classification`, `Prompt-Injection-Mixed-Techniques-2024` и др.; точный объём объединённого train set на карточке не указан).
+
+**Независимые бенчмарки** (напр. Sentinel/Qualifire) часто дают заметно ниже официальных цифр Protect AI — протоколы и распределения различаются. Сводка по другим ML-реализациям способа №1 — в MOC «Сравнение — способ 1 ML-классификаторы».
+
 ## Сигналы качества
 
-- Unit-тесты сканеров в репозитории.
+- Unit-тесты сканеров в репозитории; quality-метрики — на HF model card (см. выше).
 - В сообществе известны обходы через кодирование и multilingual paraphrase.
 - Широко используется как типовой input scanner в корпоративных пайплайнах.
 
